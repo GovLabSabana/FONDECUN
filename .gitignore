@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Data generada (se regenera con merge_data.py)
+data_merged.json
+
+# Archivos de Office temporales
+~$*.xlsx
+~$*.docx
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
