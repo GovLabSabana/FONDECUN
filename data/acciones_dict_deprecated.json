@@ -1,0 +1,248 @@
+{
+    "tic_1-1-1": {
+        "eje": "Producción de contenidos pedagógicos mediados por TIC",
+        "ciclo": 1,
+        "objetivos": "1.Establecer las competencias institucionales sobre el desarrollo de las competencias TIC que se quieren desarrollar con el estudiante.",
+        "acciones": "1. Presentar y unificar conceptos básicos sobre las TIC."
+    },
+    "tic_1-2-1": {
+        "eje": "Producción de contenidos pedagógicos mediados por TIC",
+        "ciclo": 1,
+        "objetivos": "2. Establecer el alcance que se le quiere dar al uso de las TIC en el aula de clase.",
+        "acciones": "1. Establecer los alcances y limitaciones por parte de la IE frente a los recursos físicos y humanos para el uso de las TIC en el aula. Se recomienda usar el Modelo SARM."
+    },
+    "tic_1-2-2": {
+        "eje": "Producción de contenidos pedagógicos mediados por TIC",
+        "ciclo": 1,
+        "objetivos": "2. Establecer el alcance que se le quiere dar al uso de las TIC en el aula de clase.",
+        "acciones": "2.  Diseñar un primer borrador de las competencias institucionales que se quieren desarrollar con los estudiantes."
+    },
+    "tic_2-1-1": {
+        "eje": "Producción de contenidos pedagógicos mediados por TIC",
+        "ciclo": 2,
+        "objetivos": "1. Establecer los logros generales o niveles de desempeño de las competencias TIC institucionales que se quieren desarrollar con los estudiantes por área de conocimiento.",
+        "acciones": "1. A partir de las competencias institucionales (y de su posible depuración) establecer por áreas de conocimientos los niveles de desempeño asociados a las áreas de conocimiento."
+    },
+    "tic_2-2-1": {
+        "eje": "Producción de contenidos pedagógicos mediados por TIC",
+        "ciclo": 2,
+        "objetivos": "2. Fundamentar las estrategias para la integración curricular de las TIC en los planes de estudio de las áreas de conocimiento.",
+        "acciones": "1. Teniendo el anterior insumo, establecer un primer borrador de estrategias para la integración curricular. (Es importante en este momento incluir el manejo de una herramienta TIC que sea significativa para el trabajo en el aula)."
+    },
+    "tic_3-1-1": {
+        "eje": "Producción de contenidos pedagógicos mediados por TIC",
+        "ciclo": 3,
+        "objetivos": "1. Establecer estrategias para la integración curricular de las TIC en los planes de estudio de las áreas de conocimiento. (Nivel 2)",
+        "acciones": "1. Teniendo en cuenta el borrador de la sesión anterior consolidar las estrategias para la integración curricular de las TIC en los planes de estudio de las áreas de conocimiento en una matriz."
+    },
+    "tic_3-2-1": {
+        "eje": "Producción de contenidos pedagógicos mediados por TIC",
+        "ciclo": 3,
+        "objetivos": "2. Diseñar el plan de implementación de la estrategia de integración curricular de las TIC en los planes de estudio.",
+        "acciones": "1.  Establecer mediante un esquema gráfico la ruta de implementación de las estrategias de integración curricular desde tres dimensiones: planeación, ejecución en el aula y evaluación."
+    },
+    "tic_4-1-1": {
+        "eje": "Producción de contenidos pedagógicos mediados por TIC",
+        "ciclo": 4,
+        "objetivos": "1. Presentar los planes de estudio diseñados junto con la estrategia de implementación.",
+        "acciones": "1. Socializar estrategias para la integración curricular de las TIC en los planes de estudio de las áreas de conocimiento."
+    },
+    "tic_4-2-2": {
+        "eje": "Producción de contenidos pedagógicos mediados por TIC",
+        "ciclo": 4,
+        "objetivos": "2. Diseñar un instrumento de evaluación y seguimiento de la estrategia para la integración curricular de las TIC en los planes de estudio de las áreas de conocimiento.",
+        "acciones": "2. Fomentar la retroalimentación sobre los planes de estudio por área de conocimiento."
+    },
+    "tic_4-2-3": {
+        "eje": "Producción de contenidos pedagógicos mediados por TIC",
+        "ciclo": 4,
+        "objetivos": "2. Diseñar un instrumento de evaluación y seguimiento de la estrategia para la integración curricular de las TIC en los planes de estudio de las áreas de conocimiento.",
+        "acciones": "3. Guiar el diseño de un instrumento de evaluación y seguimiento de las estrategias implementadas en los planes de estudio por área de conocimiento."
+    },
+    "ev_1-1-1": {
+        "eje": "Técnicas e instrumentos de evaluación",
+        "ciclo": 1,
+        "objetivos": "1. Brindar herramientas conceptuales en torno a la evaluación en todos los momentos del proceso educativo.",
+        "acciones": "1. Identificar qué y cómo se evalúa en la Institución Educativa. Haciendo referencia a la cultura de la evaluación institucional."
+    },
+    "ev_1-1-2": {
+        "eje": "Técnicas e instrumentos de evaluación",
+        "ciclo": 1,
+        "objetivos": "1. Brindar herramientas conceptuales en torno a la evaluación en todos los momentos del proceso educativo.",
+        "acciones": "2. Identificar los paradigmas que se reconocen en la IE sobre la evaluación y la calificación."
+    },
+    "ev_1-2-1": {
+        "eje": "Técnicas e instrumentos de evaluación",
+        "ciclo": 1,
+        "objetivos": "2. Establecer la coherencia y pertinencia de la evaluación conforme al Modelo Pedagógico.",
+        "acciones": "1. A partir del qué se evalúa, precisar los componentes de dicho objeto de estudio (competencias, habilidades, aprendizajes, entre otros)"
+    },
+    "ev_2-1-1": {
+        "eje": "Técnicas e instrumentos de evaluación",
+        "ciclo": 2,
+        "objetivos": "1. Establecer los elementos que componen la evaluación institucional, articulándolos con los diversos medios, técnicas e instrumentos que son esenciales para el trabajo por área de conocimiento.",
+        "acciones": "1. Identificar y unificar la terminología usada por la IE para evaluar (competencia, logro, criterio, habilidad, descriptor, desempeño, evidencia) para articularla y jerarquizarla según corresponda."
+    },
+    "ev_2-1-2": {
+        "eje": "Técnicas e instrumentos de evaluación",
+        "ciclo": 2,
+        "objetivos": "1. Establecer los elementos que componen la evaluación institucional, articulándolos con los diversos medios, técnicas e instrumentos que son esenciales para el trabajo por área de conocimiento.",
+        "acciones": "2. Utilizar el Sistema de Evaluación de Estudiantes (SIEE) como insumo principal para validar la articulación de términos asociados a la evaluación."
+    },
+    "ev_3-1-1": {
+        "eje": "Técnicas e instrumentos de evaluación",
+        "ciclo": 3,
+        "objetivos": "1. Establecer relaciones entre los objetivos de aprendizaje con las competencias o habilidades a evaluar.",
+        "acciones": "1. Establecer por áreas de conocimiento cuáles son los objetivos de aprendizaje y cómo se vinculan con lo que se evalúa en la IE."
+    },
+    "ev_3-2-1": {
+        "eje": "Técnicas e instrumentos de evaluación",
+        "ciclo": 3,
+        "objetivos": "2. Establecer por áreas de conocimiento los instrumentos que son soporte fundamental para el trabajo en el aula de clase.",
+        "acciones": "1. Identificar por área de conocimiento cuáles son los medios, técnicas e instrumentos de evaluación acordes por área de conocimiento y conforme al modelo pedagógico en los diferentes momentos de evaluación."
+    },
+    "ev_4-1-1": {
+        "eje": "Técnicas e instrumentos de evaluación",
+        "ciclo": 4,
+        "objetivos": "1. Diseñar modelos de instrumentos, que permitan generar un banco para las diversas áreas de conocimiento.",
+        "acciones": "1. Seleccionar y diseñar instrumentos de evaluación acordes con los objetivos de aprendizaje por área de conocimiento."
+    },
+    "ev_4-2-1": {
+        "eje": "Técnicas e instrumentos de evaluación",
+        "ciclo": 4,
+        "objetivos": "2. Establecer los procedimientos de evaluación (auto, hetero y coevaluación) articulado con los diversos agentes.",
+        "acciones": "1. Establecer los diversos agentes que harán parte de los procesos de evaluación institucionales (docentes, padres, estudiantes)"
+    },
+    "ev_4-3-1": {
+        "eje": "Técnicas e instrumentos de evaluación",
+        "ciclo": 4,
+        "objetivos": "3. Diseñar instrumentos de evaluación que serán usados por los diferentes agentes de la comunidad educativa que hacen parte de los procesos de evaluación.",
+        "acciones": "1. Establecer los objetivos de los diversos procedimientos de evaluación, su alcance y su peso en la valoración por áreas de conocimiento"
+    },
+    "ev_4-3-2": {
+        "eje": "Técnicas e instrumentos de evaluación",
+        "ciclo": 4,
+        "objetivos": "3. Diseñar instrumentos de evaluación que serán usados por los diferentes agentes de la comunidad educativa que hacen parte de los procesos de evaluación.",
+        "acciones": "2. Seleccionar y diseñar instrumentos de evaluación acorde con los procedimientos de evaluación, los objetivos de aprendizaje y los agentes evaluativos."
+    },
+    "mp_1-1-1": {
+        "eje": "Alineación del modelo pedagógico",
+        "ciclo": 1,
+        "objetivos": "1. Caracterizar el modelo pedagógico de la Institución educativa a partir de lo manifestado en los documentos institucionales y las prácticas de enseñanza, expresadas por los docentes.",
+        "acciones": "1. Identificar el modelo pedagógico declarado en los documentos institucionales."
+    },
+    "mp_1-2-1": {
+        "eje": "Alineación del modelo pedagógico",
+        "ciclo": 1,
+        "objetivos": "2. Reconocer los elementos esenciales que conforman un modelo pedagógico.",
+        "acciones": "1. Reconocer las prácticas de enseñanza que desarrollan los docentes en el aula."
+    },
+    "mp_1-3-1": {
+        "eje": "Alineación del modelo pedagógico",
+        "ciclo": 1,
+        "objetivos": "3. Hacer un recorrido por las ideas centrales de diversos modelos pedagógicos.",
+        "acciones": "1. Contrastar las prácticas de enseñanza con el modelo pedagógico manifestado para diagnosticar las diferencias entre estas, para ello, se propone realizarlo mediante una matriz de convergencias y divergencias."
+    },
+    "mp_2-1-1": {
+        "eje": "Alineación del modelo pedagógico",
+        "ciclo": 2,
+        "objetivos": "1. Conceptualizar el modelo pedagógico propio (manifestado por la IE) para establecer sus principios fundamentales y alinearlo con las prácticas de enseñanza.",
+        "acciones": "1. Presentar los principios del modelo propuesto por la IE."
+    },
+    "mp_2-1-2": {
+        "eje": "Alineación del modelo pedagógico",
+        "ciclo": 2,
+        "objetivos": "1. Conceptualizar el modelo pedagógico propio (manifestado por la IE) para establecer sus principios fundamentales y alinearlo con las prácticas de enseñanza.",
+        "acciones": "2. Reconocer cuáles son las prácticas de enseñanza que se alinean con el modelo pedagógico propuesto y cuáles no."
+    },
+    "mp_2-1-3": {
+        "eje": "Alineación del modelo pedagógico",
+        "ciclo": 2,
+        "objetivos": "1. Conceptualizar el modelo pedagógico propio (manifestado por la IE) para establecer sus principios fundamentales y alinearlo con las prácticas de enseñanza.",
+        "acciones": "3. Encontrar un punto de encuentro entre las prácticas de aula de los docentes de la IE con el modelo pedagógico declarado e identificar cuáles prácticas del modelo academicista (o tradicional) se recuperan y se armonizan. Se propone una matriz de coherencia."
+    },
+    "mp_3-1-1": {
+        "eje": "Alineación del modelo pedagógico",
+        "ciclo": 3,
+        "objetivos": "1. Organizar el primer borrador del modelo pedagógico de la IE consignando las reflexiones propuestas en los encuentros anteriores.",
+        "acciones": "1. Socializar con los docentes el modelo de presentación del documento y realizar los ajustes conforme a las necesidades y realidades de la IE."
+    },
+    "mp_3-1-2": {
+        "eje": "Alineación del modelo pedagógico",
+        "ciclo": 3,
+        "objetivos": "1. Organizar el primer borrador del modelo pedagógico de la IE consignando las reflexiones propuestas en los encuentros anteriores.",
+        "acciones": "2. Establecer grupos de trabajo para trabajar cada uno de los elementos que conforman un modelo pedagógico."
+    },
+    "mp_3-1-3": {
+        "eje": "Alineación del modelo pedagógico",
+        "ciclo": 3,
+        "objetivos": "1. Organizar el primer borrador del modelo pedagógico de la IE consignando las reflexiones propuestas en los encuentros anteriores.",
+        "acciones": "3. Reorganizar los apartados del modelo pedagógico dispuestos a lo largo de los documentos institucionales en el modelo de documento ajustado."
+    },
+    "mp_4-1-1": {
+        "eje": "Alineación del modelo pedagógico",
+        "ciclo": 4,
+        "objetivos": "1. Consolidación, socialización y discusión  del borrador del modelo pedagógico de la IE.",
+        "acciones": "1. Consolidar los ajustes realizados por los docentes en el ciclo anterior."
+    },
+    "mp_4-1-2": {
+        "eje": "Alineación del modelo pedagógico",
+        "ciclo": 4,
+        "objetivos": "1. Consolidación, socialización y discusión  del borrador del modelo pedagógico de la IE.",
+        "acciones": "2. Socializar con todos los docentes los ajustes propuestos por grupos para retroalimentar el trabajo y finalizarlo."
+    },
+    "mp_4-1-3": {
+        "eje": "Alineación del modelo pedagógico",
+        "ciclo": 4,
+        "objetivos": "1. Consolidación, socialización y discusión  del borrador del modelo pedagógico de la IE.",
+        "acciones": "3. Finalizar la entrega del documento con los ajustes consignados por los docentes de la institución educativa."
+    },
+    "mc_1-1-1": {
+        "eje": "Diseño, implementación y evaluación de microcurrículos",
+        "ciclo": 1,
+        "objetivos": "1. Comprender los criterios para analizar la coherencia y pertinencia, desde una visión la  de macro, meso y microcurriculo.",
+        "acciones": "1. Identificación y formulación de unas primeras reflexiones sobre el la práctica de enseñanza propia."
+    },
+    "mc_1-2-1": {
+        "eje": "Diseño, implementación y evaluación de microcurrículos",
+        "ciclo": 1,
+        "objetivos": "2. Identificar el concepto de práctica de enseñanza y su sentido en el quehacer docente",
+        "acciones": "1. Primer análisis de aspectos macro-meso y microcurricular."
+    },
+    "mc_2-1-1": {
+        "eje": "Diseño, implementación y evaluación de microcurrículos",
+        "ciclo": 2,
+        "objetivos": "1. Conceptualizar  sobre el sentido de las acciones constitutivas de planear e implementar, así como, la delimitación de los conceptos estructurantes, que a su criterio se abordan en la asignatura que dicta.",
+        "acciones": "1. Reconocer cuáles son las prácticas de enseñanza que se alinean con el modelo pedagógico propuesto y cuáles no."
+    },
+    "mc_2-2-1": {
+        "eje": "Diseño, implementación y evaluación de microcurrículos",
+        "ciclo": 2,
+        "objetivos": "2. Reflexionar y evidenciar la alineación de  planes de área con el modelo pedagógico, el mesocurrículo y el macrocurrículo.",
+        "acciones": "1. Evidenciar que los planes de área de la IE están alineados con el modelo pedagógico, el mesocurrículo y el macrocurrículo."
+    },
+    "mc_3-1-1": {
+        "eje": "Diseño, implementación y evaluación de microcurrículos",
+        "ciclo": 3,
+        "objetivos": "1. Comprender laimportancia de organizar la planeación de una asignatura y de un área a partir de los conceptos estructurantes de una disciplina.",
+        "acciones": "1. Estructuración del   modelo   de planeación   microcurricular."
+    },
+    "mc_3-1-2": {
+        "eje": "Diseño, implementación y evaluación de microcurrículos",
+        "ciclo": 3,
+        "objetivos": "1. Comprender laimportancia de organizar la planeación de una asignatura y de un área a partir de los conceptos estructurantes de una disciplina.",
+        "acciones": "2. Elaboración de una matriz de evaluación  de resultados previstos de aprendizaje y articulación entre grados"
+    },
+    "mc_4-1-1": {
+        "eje": "Diseño, implementación y evaluación de microcurrículos",
+        "ciclo": 4,
+        "objetivos": "1. Comprender la relevancia de   la   coherencia  pertinencia curricular,como elemento de trazabilidad y consolidación de su planeación, acorde con la Evaluación, las Estrategias  de Enseñanza,   los Conceptos Estructurantes   y   los resultados   previstos   de aprendizaje propuestos.",
+        "acciones": "1. Organizar la malla curricular de área a partir de los conceptos estructurantes de una disciplina y los resultados previstos de aprendizaje."
+    },
+    "mc_4-2-1": {
+        "eje": "Diseño, implementación y evaluación de microcurrículos",
+        "ciclo": 4,
+        "objetivos": "2. Analizar su modelo microcurricular y realizar adaptaciones consecuentes  con  criterios  de coherencia  y pertinencia.",
+        "acciones": "1."
+    }
+}
