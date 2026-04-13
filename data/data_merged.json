@@ -163,7 +163,13 @@
       "especialidad_OTRO": true,
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6562,
+      "eje_transformacion_practicas": 0.8167,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25019"
   },
   {
     "id": "125035000159",
@@ -268,7 +274,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6517,
+      "eje_transformacion_practicas": 0.63,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25035"
   },
   {
     "id": "225035000072",
@@ -368,7 +380,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7183,
+      "eje_transformacion_practicas": 0.705,
+      "eje_descenso_curricular": 0.725
+    },
+    "municipio_code": "25035"
   },
   {
     "id": "225035000358",
@@ -466,7 +484,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6517,
+      "eje_transformacion_practicas": 0.63,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25035"
   },
   {
     "id": "125040000582",
@@ -558,7 +582,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.475,
+      "eje_transformacion_practicas": 0.4,
+      "eje_descenso_curricular": 0.5
+    },
+    "municipio_code": "25040"
   },
   {
     "id": "125599000060",
@@ -688,7 +718,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.715,
+      "eje_transformacion_practicas": 0.68,
+      "eje_descenso_curricular": 0.75
+    },
+    "municipio_code": "25599"
   },
   {
     "id": "125053000018",
@@ -879,7 +915,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.75,
+      "eje_transformacion_practicas": 0.826,
+      "eje_descenso_curricular": 0.7425
+    },
+    "municipio_code": "25053"
   },
   {
     "id": "425053000402",
@@ -969,7 +1011,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.92,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 0.84
+    },
+    "municipio_code": "25053"
   },
   {
     "id": "225053000187",
@@ -1146,7 +1194,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.625,
+      "eje_transformacion_practicas": 0.7875,
+      "eje_descenso_curricular": 0.6
+    },
+    "municipio_code": "25053"
   },
   {
     "id": "225086000212",
@@ -1247,7 +1301,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.585,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6125
+    },
+    "municipio_code": "25086"
   },
   {
     "id": "125086000234",
@@ -1350,7 +1410,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.685,
+      "eje_transformacion_practicas": 0.68,
+      "eje_descenso_curricular": 0.6875
+    },
+    "municipio_code": "25086"
   },
   {
     "id": "125099000101",
@@ -1528,7 +1594,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7111,
+      "eje_transformacion_practicas": 0.8,
+      "eje_descenso_curricular": 0.7667
+    },
+    "municipio_code": "25099"
   },
   {
     "id": "225099000041",
@@ -1700,7 +1772,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7222,
+      "eje_transformacion_practicas": 0.9,
+      "eje_descenso_curricular": 0.55
+    },
+    "municipio_code": "25099"
   },
   {
     "id": "125120000010",
@@ -1804,7 +1882,13 @@
       "especialidad_OTRO": true,
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25120"
   },
   {
     "id": "125123000134",
@@ -1908,7 +1992,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6017,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25123"
   },
   {
     "id": "225123000201",
@@ -2011,7 +2101,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6683,
+      "eje_transformacion_practicas": 0.63,
+      "eje_descenso_curricular": 0.6875
+    },
+    "municipio_code": "25123"
   },
   {
     "id": "125126000313",
@@ -2190,7 +2286,13 @@
       "especialidad_INDUSTRIAL": true,
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.749,
+      "eje_transformacion_practicas": 0.95,
+      "eje_descenso_curricular": 0.73
+    },
+    "municipio_code": "25126"
   },
   {
     "id": "225126000288",
@@ -2382,7 +2484,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6915,
+      "eje_transformacion_practicas": 0.858,
+      "eje_descenso_curricular": 0.57
+    },
+    "municipio_code": "25126"
   },
   {
     "id": "225126000067",
@@ -2559,7 +2667,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.738,
+      "eje_transformacion_practicas": 0.975,
+      "eje_descenso_curricular": 0.66
+    },
+    "municipio_code": "25126"
   },
   {
     "id": "225126000431",
@@ -2734,7 +2848,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.715,
+      "eje_transformacion_practicas": 0.9625,
+      "eje_descenso_curricular": 0.6
+    },
+    "municipio_code": "25126"
   },
   {
     "id": "225126000091",
@@ -2909,7 +3029,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.795,
+      "eje_transformacion_practicas": 0.8675,
+      "eje_descenso_curricular": 0.8433
+    },
+    "municipio_code": "25126"
   },
   {
     "id": "125126000232",
@@ -3085,7 +3211,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6444,
+      "eje_transformacion_practicas": 0.85,
+      "eje_descenso_curricular": 0.35
+    },
+    "municipio_code": "25126"
   },
   {
     "id": "225148000401",
@@ -3186,7 +3318,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7083,
+      "eje_transformacion_practicas": 0.75,
+      "eje_descenso_curricular": 0.6875
+    },
+    "municipio_code": "25148"
   },
   {
     "id": "125148000481",
@@ -3287,7 +3425,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6517,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6875
+    },
+    "municipio_code": "25148"
   },
   {
     "id": "225148001563",
@@ -3387,7 +3531,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7683,
+      "eje_transformacion_practicas": 0.73,
+      "eje_descenso_curricular": 0.7875
+    },
+    "municipio_code": "25148"
   },
   {
     "id": "225148001571",
@@ -3487,7 +3637,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.53,
+      "eje_transformacion_practicas": 0.365,
+      "eje_descenso_curricular": 0.6125
+    },
+    "municipio_code": "25148"
   },
   {
     "id": "225148001555",
@@ -3586,7 +3742,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6633,
+      "eje_transformacion_practicas": 0.515,
+      "eje_descenso_curricular": 0.7375
+    },
+    "municipio_code": "25148"
   },
   {
     "id": "425151000577",
@@ -3773,7 +3935,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6969,
+      "eje_transformacion_practicas": 0.842,
+      "eje_descenso_curricular": 0.61
+    },
+    "municipio_code": "25151"
   },
   {
     "id": "225151000195",
@@ -3961,7 +4129,13 @@
       "caracter_TÉCNICO": true,
       "especialidad": "OTRO",
       "especialidad_OTRO": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6431,
+      "eje_transformacion_practicas": 0.702,
+      "eje_descenso_curricular": 0.63
+    },
+    "municipio_code": "25151"
   },
   {
     "id": "125151000531",
@@ -4138,7 +4312,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.719,
+      "eje_transformacion_practicas": 0.8,
+      "eje_descenso_curricular": 0.7967
+    },
+    "municipio_code": "25151"
   },
   {
     "id": "225151000152",
@@ -4229,7 +4409,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.945,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 0.89
+    },
+    "municipio_code": "25151"
   },
   {
     "id": "225151000381",
@@ -4318,7 +4504,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 1.0,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 1.0
+    },
+    "municipio_code": "25151"
   },
   {
     "id": "225154000064",
@@ -4403,7 +4595,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7667,
+      "eje_transformacion_practicas": 0.75,
+      "eje_descenso_curricular": 0.775
+    },
+    "municipio_code": "25154"
   },
   {
     "id": "125154000248",
@@ -4494,7 +4692,13 @@
       "especialidad_OTRO": true,
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7333,
+      "eje_transformacion_practicas": 0.7,
+      "eje_descenso_curricular": 0.75
+    },
+    "municipio_code": "25154"
   },
   {
     "id": "225154000188",
@@ -4582,7 +4786,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5333,
+      "eje_transformacion_practicas": 0.4,
+      "eje_descenso_curricular": 0.6
+    },
+    "municipio_code": "25154"
   },
   {
     "id": "225178000375",
@@ -4680,7 +4890,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5517,
+      "eje_transformacion_practicas": 0.48,
+      "eje_descenso_curricular": 0.5875
+    },
+    "municipio_code": "25178"
   },
   {
     "id": "225181000220",
@@ -4783,7 +4999,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5517,
+      "eje_transformacion_practicas": 0.48,
+      "eje_descenso_curricular": 0.5875
+    },
+    "municipio_code": "25181"
   },
   {
     "id": "125183000591",
@@ -4964,7 +5186,13 @@
       "especialidad_OTRO": true,
       "especialidad_INDUSTRIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.685,
+      "eje_transformacion_practicas": 0.825,
+      "eje_descenso_curricular": 0.6333
+    },
+    "municipio_code": "25183"
   },
   {
     "id": "125183000320",
@@ -5144,7 +5372,13 @@
       "especialidad_OTRO": true,
       "especialidad_INDUSTRIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.767,
+      "eje_transformacion_practicas": 0.8925,
+      "eje_descenso_curricular": 0.7667
+    },
+    "municipio_code": "25183"
   },
   {
     "id": "225200002387",
@@ -5333,7 +5567,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.77,
+      "eje_transformacion_practicas": 0.892,
+      "eje_descenso_curricular": 0.67
+    },
+    "municipio_code": "25200"
   },
   {
     "id": "225200000201",
@@ -5426,7 +5666,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.945,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 0.89
+    },
+    "municipio_code": "25200"
   },
   {
     "id": "125200000274",
@@ -5606,7 +5852,13 @@
       "especialidad_OTRO": true,
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.813,
+      "eje_transformacion_practicas": 0.895,
+      "eje_descenso_curricular": 0.9167
+    },
+    "municipio_code": "25200"
   },
   {
     "id": "425200000235",
@@ -5785,7 +6037,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.805,
+      "eje_transformacion_practicas": 0.9,
+      "eje_descenso_curricular": 0.7667
+    },
+    "municipio_code": "25200"
   },
   {
     "id": "225200000058",
@@ -5961,7 +6219,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7111,
+      "eje_transformacion_practicas": 0.9,
+      "eje_descenso_curricular": 0.6
+    },
+    "municipio_code": "25200"
   },
   {
     "id": "225224000024",
@@ -6064,7 +6328,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6517,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6875
+    },
+    "municipio_code": "25224"
   },
   {
     "id": "125224000194",
@@ -6155,7 +6425,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7667,
+      "eje_transformacion_practicas": 0.7,
+      "eje_descenso_curricular": 0.8
+    },
+    "municipio_code": "25224"
   },
   {
     "id": "225245000652",
@@ -6258,7 +6534,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7183,
+      "eje_transformacion_practicas": 0.705,
+      "eje_descenso_curricular": 0.725
+    },
+    "municipio_code": "25245"
   },
   {
     "id": "225258000244",
@@ -6358,7 +6640,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25258"
   },
   {
     "id": "125258000312",
@@ -6458,7 +6746,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7183,
+      "eje_transformacion_practicas": 0.705,
+      "eje_descenso_curricular": 0.725
+    },
+    "municipio_code": "25258"
   },
   {
     "id": "225769000552",
@@ -6634,7 +6928,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.805,
+      "eje_transformacion_practicas": 0.8375,
+      "eje_descenso_curricular": 0.8333
+    },
+    "municipio_code": "25260"
   },
   {
     "id": "425279000634",
@@ -6806,7 +7106,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.781,
+      "eje_transformacion_practicas": 0.8525,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25279"
   },
   {
     "id": "325279000451",
@@ -6966,7 +7272,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.76,
+      "eje_transformacion_practicas": 0.8267,
+      "eje_descenso_curricular": 0.8
+    },
+    "municipio_code": "25279"
   },
   {
     "id": "225281000219",
@@ -7142,7 +7454,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6055,
+      "eje_transformacion_practicas": 0.765,
+      "eje_descenso_curricular": 0.5375
+    },
+    "municipio_code": "25281"
   },
   {
     "id": "125281000303",
@@ -7315,7 +7633,13 @@
       "caracter_TÉCNICO": true,
       "especialidad": "AGROPECUARIO",
       "especialidad_AGROPECUARIO": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5118,
+      "eje_transformacion_practicas": 0.62,
+      "eje_descenso_curricular": 0.4625
+    },
+    "municipio_code": "25281"
   },
   {
     "id": "125281000249",
@@ -7479,7 +7803,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5975,
+      "eje_transformacion_practicas": 0.7767,
+      "eje_descenso_curricular": 0.5
+    },
+    "municipio_code": "25281"
   },
   {
     "id": "125288000252",
@@ -7580,7 +7910,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.585,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6125
+    },
+    "municipio_code": "25288"
   },
   {
     "id": "225293000222",
@@ -7678,7 +8014,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6417,
+      "eje_transformacion_practicas": 0.7,
+      "eje_descenso_curricular": 0.6125
+    },
+    "municipio_code": "25293"
   },
   {
     "id": "225293000362",
@@ -7776,7 +8118,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6017,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25293"
   },
   {
     "id": "125295000110",
@@ -7867,7 +8215,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.4667,
+      "eje_transformacion_practicas": 0.3,
+      "eje_descenso_curricular": 0.55
+    },
+    "municipio_code": "25295"
   },
   {
     "id": "225297000529",
@@ -8058,7 +8412,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6654,
+      "eje_transformacion_practicas": 0.74,
+      "eje_descenso_curricular": 0.59
+    },
+    "municipio_code": "25297"
   },
   {
     "id": "225754000076",
@@ -8147,7 +8507,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5,
+      "eje_transformacion_practicas": 0.3,
+      "eje_descenso_curricular": 0.6
+    },
+    "municipio_code": "25312"
   },
   {
     "id": "125317000232",
@@ -8249,7 +8615,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6683,
+      "eje_transformacion_practicas": 0.63,
+      "eje_descenso_curricular": 0.6875
+    },
+    "municipio_code": "25317"
   },
   {
     "id": "325317000240",
@@ -8349,7 +8721,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25317"
   },
   {
     "id": "225317000172",
@@ -8440,7 +8818,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.735,
+      "eje_transformacion_practicas": 0.705,
+      "eje_descenso_curricular": 0.75
+    },
+    "municipio_code": "25317"
   },
   {
     "id": "125320000618",
@@ -8634,7 +9018,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7046,
+      "eje_transformacion_practicas": 0.842,
+      "eje_descenso_curricular": 0.67
+    },
+    "municipio_code": "25320"
   },
   {
     "id": "225320000884",
@@ -8826,7 +9216,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6815,
+      "eje_transformacion_practicas": 0.812,
+      "eje_descenso_curricular": 0.63
+    },
+    "municipio_code": "25320"
   },
   {
     "id": "225320000574",
@@ -8931,7 +9327,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.656,
+      "eje_transformacion_practicas": 0.665,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25320"
   },
   {
     "id": "225322000105",
@@ -9016,7 +9418,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5667,
+      "eje_transformacion_practicas": 0.45,
+      "eje_descenso_curricular": 0.625
+    },
+    "municipio_code": "25322"
   },
   {
     "id": "225324000064",
@@ -9116,7 +9524,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6017,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25324"
   },
   {
     "id": "125324000094",
@@ -9219,7 +9633,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.585,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6125
+    },
+    "municipio_code": "25324"
   },
   {
     "id": "225326000096",
@@ -9319,7 +9739,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5967,
+      "eje_transformacion_practicas": 0.465,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25326"
   },
   {
     "id": "125326000121",
@@ -9411,7 +9837,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5667,
+      "eje_transformacion_practicas": 0.4,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25326"
   },
   {
     "id": "125328000153",
@@ -9513,7 +9945,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.685,
+      "eje_transformacion_practicas": 0.68,
+      "eje_descenso_curricular": 0.6875
+    },
+    "municipio_code": "25328"
   },
   {
     "id": "225328000051",
@@ -9599,7 +10037,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.4667,
+      "eje_transformacion_practicas": 0.3,
+      "eje_descenso_curricular": 0.55
+    },
+    "municipio_code": "25328"
   },
   {
     "id": "125339000261",
@@ -9700,7 +10144,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5517,
+      "eje_transformacion_practicas": 0.48,
+      "eje_descenso_curricular": 0.5875
+    },
+    "municipio_code": "25339"
   },
   {
     "id": "125368000164",
@@ -9803,7 +10253,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.4967,
+      "eje_transformacion_practicas": 0.315,
+      "eje_descenso_curricular": 0.5875
+    },
+    "municipio_code": "25368"
   },
   {
     "id": "225372000572",
@@ -9902,7 +10358,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6017,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25372"
   },
   {
     "id": "225372000777",
@@ -9999,7 +10461,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5633,
+      "eje_transformacion_practicas": 0.415,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25372"
   },
   {
     "id": "125372000322",
@@ -10101,7 +10569,13 @@
       "especialidad": "ESCUELA NORMAL,ACADÉMICA",
       "especialidad_ESCUELA_NORMAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5967,
+      "eje_transformacion_practicas": 0.465,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25372"
   },
   {
     "id": "225377076593",
@@ -10199,7 +10673,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.605,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25377"
   },
   {
     "id": "325386000618",
@@ -10374,7 +10854,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.716,
+      "eje_transformacion_practicas": 0.9,
+      "eje_descenso_curricular": 0.6533
+    },
+    "municipio_code": "25386"
   },
   {
     "id": "225386000648",
@@ -10548,7 +11034,13 @@
       "caracter_TÉCNICO": true,
       "especialidad": "INDUSTRIAL",
       "especialidad_INDUSTRIAL": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7522,
+      "eje_transformacion_practicas": 0.8675,
+      "eje_descenso_curricular": 0.7
+    },
+    "municipio_code": "25386"
   },
   {
     "id": "125386000295",
@@ -10727,7 +11219,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.8625,
+      "eje_transformacion_practicas": 0.875,
+      "eje_descenso_curricular": 0.9
+    },
+    "municipio_code": "25386"
   },
   {
     "id": "225386000630",
@@ -10917,7 +11415,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.8077,
+      "eje_transformacion_practicas": 0.832,
+      "eje_descenso_curricular": 0.708
+    },
+    "municipio_code": "25386"
   },
   {
     "id": "225386000427",
@@ -11105,7 +11609,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7185,
+      "eje_transformacion_practicas": 0.898,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25386"
   },
   {
     "id": "225386000605",
@@ -11294,7 +11804,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6446,
+      "eje_transformacion_practicas": 0.766,
+      "eje_descenso_curricular": 0.61
+    },
+    "municipio_code": "25386"
   },
   {
     "id": "125394000512",
@@ -11395,7 +11911,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6017,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25394"
   },
   {
     "id": "225394000436",
@@ -11497,7 +12019,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5517,
+      "eje_transformacion_practicas": 0.48,
+      "eje_descenso_curricular": 0.5875
+    },
+    "municipio_code": "25394"
   },
   {
     "id": "225394000045",
@@ -11599,7 +12127,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.605,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25394"
   },
   {
     "id": "225398000147",
@@ -11699,7 +12233,13 @@
       "caracter_TÉCNICO": true,
       "especialidad": "AGROPECUARIO",
       "especialidad_AGROPECUARIO": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25398"
   },
   {
     "id": "125398000011",
@@ -11801,7 +12341,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5183,
+      "eje_transformacion_practicas": 0.43,
+      "eje_descenso_curricular": 0.5625
+    },
+    "municipio_code": "25398"
   },
   {
     "id": "225402000181",
@@ -11976,7 +12522,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6173,
+      "eje_transformacion_practicas": 0.835,
+      "eje_descenso_curricular": 0.4875
+    },
+    "municipio_code": "25402"
   },
   {
     "id": "225402003059",
@@ -12153,7 +12705,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6682,
+      "eje_transformacion_practicas": 0.7625,
+      "eje_descenso_curricular": 0.6125
+    },
+    "municipio_code": "25402"
   },
   {
     "id": "125402003062",
@@ -12319,7 +12877,13 @@
       "especialidad_OTRO": true,
       "especialidad_INDUSTRIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6787,
+      "eje_transformacion_practicas": 0.7433,
+      "eje_descenso_curricular": 0.75
+    },
+    "municipio_code": "25402"
   },
   {
     "id": "225407000040",
@@ -12408,7 +12972,13 @@
       "especialidad_OTRO": true,
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5667,
+      "eje_transformacion_practicas": 0.4,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25407"
   },
   {
     "id": "125430000842",
@@ -12589,7 +13159,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.726,
+      "eje_transformacion_practicas": 0.9125,
+      "eje_descenso_curricular": 0.6533
+    },
+    "municipio_code": "25430"
   },
   {
     "id": "125430000281",
@@ -12765,7 +13341,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.808,
+      "eje_transformacion_practicas": 0.92,
+      "eje_descenso_curricular": 0.8667
+    },
+    "municipio_code": "25430"
   },
   {
     "id": "125430001415",
@@ -12941,7 +13523,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.755,
+      "eje_transformacion_practicas": 0.85,
+      "eje_descenso_curricular": 0.7667
+    },
+    "municipio_code": "25430"
   },
   {
     "id": "125430800067",
@@ -13115,7 +13703,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.797,
+      "eje_transformacion_practicas": 0.8175,
+      "eje_descenso_curricular": 0.7667
+    },
+    "municipio_code": "25430"
   },
   {
     "id": "225430000014",
@@ -13203,7 +13797,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.57,
+      "eje_transformacion_practicas": 0.66,
+      "eje_descenso_curricular": 0.525
+    },
+    "municipio_code": "25430"
   },
   {
     "id": "125436000135",
@@ -13368,7 +13968,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7,
+      "eje_transformacion_practicas": 0.9,
+      "eje_descenso_curricular": 0.75
+    },
+    "municipio_code": "25436"
   },
   {
     "id": "225438000242",
@@ -13454,7 +14060,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 1.0,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": null
+    },
+    "municipio_code": "25438"
   },
   {
     "id": "225438000056",
@@ -13629,7 +14241,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.762,
+      "eje_transformacion_practicas": 0.8325,
+      "eje_descenso_curricular": 0.8967
+    },
+    "municipio_code": "25438"
   },
   {
     "id": "125438000213",
@@ -13807,7 +14425,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.75,
+      "eje_transformacion_practicas": 0.875,
+      "eje_descenso_curricular": 0.7667
+    },
+    "municipio_code": "25438"
   },
   {
     "id": "225438000226",
@@ -13995,7 +14619,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6731,
+      "eje_transformacion_practicas": 0.872,
+      "eje_descenso_curricular": 0.588
+    },
+    "municipio_code": "25438"
   },
   {
     "id": "125483000097",
@@ -14095,7 +14725,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6017,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25483"
   },
   {
     "id": "225486000131",
@@ -14184,7 +14820,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.93,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 0.86
+    },
+    "municipio_code": "25486"
   },
   {
     "id": "125486000187",
@@ -14376,7 +15018,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7054,
+      "eje_transformacion_practicas": 0.822,
+      "eje_descenso_curricular": 0.662
+    },
+    "municipio_code": "25486"
   },
   {
     "id": "225488000081",
@@ -14462,7 +15110,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.4667,
+      "eje_transformacion_practicas": 0.3,
+      "eje_descenso_curricular": 0.55
+    },
+    "municipio_code": "25488"
   },
   {
     "id": "125489000447",
@@ -14565,7 +15219,13 @@
       "especialidad": "INDUSTRIAL,ACADÉMICA",
       "especialidad_INDUSTRIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.625,
+      "eje_transformacion_practicas": 0.65,
+      "eje_descenso_curricular": 0.6125
+    },
+    "municipio_code": "25489"
   },
   {
     "id": "225489000450",
@@ -14668,7 +15328,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25489"
   },
   {
     "id": "125491000233",
@@ -14757,7 +15423,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6667,
+      "eje_transformacion_practicas": 0.6,
+      "eje_descenso_curricular": 0.7
+    },
+    "municipio_code": "25491"
   },
   {
     "id": "125491000241",
@@ -14846,7 +15518,13 @@
       "especialidad_ESCUELA_NORMAL": true,
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7333,
+      "eje_transformacion_practicas": 0.7,
+      "eje_descenso_curricular": 0.75
+    },
+    "municipio_code": "25491"
   },
   {
     "id": "125513001069",
@@ -15026,7 +15704,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.742,
+      "eje_transformacion_practicas": 0.94,
+      "eje_descenso_curricular": 0.6867
+    },
+    "municipio_code": "25513"
   },
   {
     "id": "225513000776",
@@ -15118,7 +15802,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.945,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 0.89
+    },
+    "municipio_code": "25513"
   },
   {
     "id": "125513000950",
@@ -15311,7 +16001,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6515,
+      "eje_transformacion_practicas": 0.87,
+      "eje_descenso_curricular": 0.544
+    },
+    "municipio_code": "25513"
   },
   {
     "id": "225513001225",
@@ -15501,7 +16197,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7608,
+      "eje_transformacion_practicas": 0.976,
+      "eje_descenso_curricular": 0.662
+    },
+    "municipio_code": "25513"
   },
   {
     "id": "225513000032",
@@ -15692,7 +16394,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.725,
+      "eje_transformacion_practicas": 0.826,
+      "eje_descenso_curricular": 0.644
+    },
+    "municipio_code": "25513"
   },
   {
     "id": "125518000656",
@@ -15794,7 +16502,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6017,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25518"
   },
   {
     "id": "125518000478",
@@ -15882,7 +16596,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.4267,
+      "eje_transformacion_practicas": 0.33,
+      "eje_descenso_curricular": 0.475
+    },
+    "municipio_code": "25518"
   },
   {
     "id": "125524000013",
@@ -15987,7 +16707,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7417,
+      "eje_transformacion_practicas": 0.8,
+      "eje_descenso_curricular": 0.7125
+    },
+    "municipio_code": "25524"
   },
   {
     "id": "225530000267",
@@ -16088,7 +16814,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5633,
+      "eje_transformacion_practicas": 0.415,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25530"
   },
   {
     "id": "225530000020",
@@ -16179,7 +16911,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7333,
+      "eje_transformacion_practicas": 0.7,
+      "eje_descenso_curricular": 0.75
+    },
+    "municipio_code": "25530"
   },
   {
     "id": "225535000010",
@@ -16280,7 +17018,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6683,
+      "eje_transformacion_practicas": 0.63,
+      "eje_descenso_curricular": 0.6875
+    },
+    "municipio_code": "25535"
   },
   {
     "id": "125572000033",
@@ -16383,7 +17127,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5633,
+      "eje_transformacion_practicas": 0.415,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25572"
   },
   {
     "id": "225572000470",
@@ -16483,7 +17233,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6467,
+      "eje_transformacion_practicas": 0.54,
+      "eje_descenso_curricular": 0.7
+    },
+    "municipio_code": "25572"
   },
   {
     "id": "125572000114",
@@ -16574,7 +17330,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7333,
+      "eje_transformacion_practicas": 0.7,
+      "eje_descenso_curricular": 0.75
+    },
+    "municipio_code": "25572"
   },
   {
     "id": "125572000238",
@@ -16661,7 +17423,13 @@
       "caracter_TÉCNICO": true,
       "especialidad": "OTRO",
       "especialidad_OTRO": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6667,
+      "eje_transformacion_practicas": 0.6,
+      "eje_descenso_curricular": 0.7
+    },
+    "municipio_code": "25572"
   },
   {
     "id": "125580000298",
@@ -16763,7 +17531,13 @@
       "especialidad": "OTRO,AGROPECUARIO",
       "especialidad_OTRO": true,
       "especialidad_AGROPECUARIO": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.605,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25580"
   },
   {
     "id": "225592000221",
@@ -16863,7 +17637,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6517,
+      "eje_transformacion_practicas": 0.63,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25592"
   },
   {
     "id": "325592000136",
@@ -16964,7 +17744,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.735,
+      "eje_transformacion_practicas": 0.705,
+      "eje_descenso_curricular": 0.75
+    },
+    "municipio_code": "25592"
   },
   {
     "id": "125594000584",
@@ -17066,7 +17852,13 @@
       "especialidad": "ESCUELA NORMAL,ACADÉMICA",
       "especialidad_ESCUELA_NORMAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6517,
+      "eje_transformacion_practicas": 0.605,
+      "eje_descenso_curricular": 0.675
+    },
+    "municipio_code": "25594"
   },
   {
     "id": "225594000830",
@@ -17168,7 +17960,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5517,
+      "eje_transformacion_practicas": 0.48,
+      "eje_descenso_curricular": 0.5875
+    },
+    "municipio_code": "25594"
   },
   {
     "id": "225596000497",
@@ -17337,7 +18135,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5943,
+      "eje_transformacion_practicas": 0.7367,
+      "eje_descenso_curricular": 0.525
+    },
+    "municipio_code": "25596"
   },
   {
     "id": "125596000301",
@@ -17437,7 +18241,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6517,
+      "eje_transformacion_practicas": 0.63,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25596"
   },
   {
     "id": "225596000314",
@@ -17522,7 +18332,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6667,
+      "eje_transformacion_practicas": 0.6,
+      "eje_descenso_curricular": 0.7
+    },
+    "municipio_code": "25596"
   },
   {
     "id": "125612000139",
@@ -17626,7 +18442,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6517,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6875
+    },
+    "municipio_code": "25612"
   },
   {
     "id": "125649000015",
@@ -17728,7 +18550,13 @@
       "especialidad_OTRO": true,
       "especialidad_ESCUELA_NORMAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.535,
+      "eje_transformacion_practicas": 0.48,
+      "eje_descenso_curricular": 0.5625
+    },
+    "municipio_code": "25649"
   },
   {
     "id": "225649000435",
@@ -17829,7 +18657,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6183,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25649"
   },
   {
     "id": "125653000305",
@@ -17933,7 +18767,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.685,
+      "eje_transformacion_practicas": 0.655,
+      "eje_descenso_curricular": 0.7
+    },
+    "municipio_code": "25653"
   },
   {
     "id": "225653000032",
@@ -18030,7 +18870,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6133,
+      "eje_transformacion_practicas": 0.465,
+      "eje_descenso_curricular": 0.6875
+    },
+    "municipio_code": "25653"
   },
   {
     "id": "225653000041",
@@ -18128,7 +18974,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5633,
+      "eje_transformacion_practicas": 0.415,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25653"
   },
   {
     "id": "125658000231",
@@ -18233,7 +19085,13 @@
       "especialidad_OTRO": true,
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.58,
+      "eje_transformacion_practicas": 0.415,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25658"
   },
   {
     "id": "225662000339",
@@ -18422,7 +19280,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7054,
+      "eje_transformacion_practicas": 0.864,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25662"
   },
   {
     "id": "225662000355",
@@ -18610,7 +19474,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6692,
+      "eje_transformacion_practicas": 0.836,
+      "eje_descenso_curricular": 0.584
+    },
+    "municipio_code": "25662"
   },
   {
     "id": "125662000156",
@@ -18803,7 +19673,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7023,
+      "eje_transformacion_practicas": 0.856,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25662"
   },
   {
     "id": "225662000134",
@@ -18979,7 +19855,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7055,
+      "eje_transformacion_practicas": 0.965,
+      "eje_descenso_curricular": 0.5375
+    },
+    "municipio_code": "25662"
   },
   {
     "id": "125718000243",
@@ -19083,7 +19965,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.725,
+      "eje_transformacion_practicas": 0.775,
+      "eje_descenso_curricular": 0.7
+    },
+    "municipio_code": "25718"
   },
   {
     "id": "125718000219",
@@ -19185,7 +20073,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7417,
+      "eje_transformacion_practicas": 0.8,
+      "eje_descenso_curricular": 0.7125
+    },
+    "municipio_code": "25718"
   },
   {
     "id": "225740000146",
@@ -19364,7 +20258,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.745,
+      "eje_transformacion_practicas": 0.9125,
+      "eje_descenso_curricular": 0.7
+    },
+    "municipio_code": "25740"
   },
   {
     "id": "225740000189",
@@ -19540,7 +20440,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5278,
+      "eje_transformacion_practicas": 0.7875,
+      "eje_descenso_curricular": 0.2
+    },
+    "municipio_code": "25740"
   },
   {
     "id": "225740000138",
@@ -19631,7 +20537,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.945,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 0.89
+    },
+    "municipio_code": "25740"
   },
   {
     "id": "125740000346",
@@ -19807,7 +20719,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.8389,
+      "eje_transformacion_practicas": 0.9625,
+      "eje_descenso_curricular": 0.85
+    },
+    "municipio_code": "25740"
   },
   {
     "id": "125740000443",
@@ -19900,7 +20818,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 1.0,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 1.0
+    },
+    "municipio_code": "25740"
   },
   {
     "id": "225743000562",
@@ -19992,7 +20916,13 @@
       "especialidad": "INDUSTRIAL,ACADÉMICA",
       "especialidad_INDUSTRIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 1.0,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 1.0
+    },
+    "municipio_code": "25743"
   },
   {
     "id": "225743000619",
@@ -20170,7 +21100,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.685,
+      "eje_transformacion_practicas": 0.8375,
+      "eje_descenso_curricular": 0.6667
+    },
+    "municipio_code": "25743"
   },
   {
     "id": "125743000401",
@@ -20364,7 +21300,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7215,
+      "eje_transformacion_practicas": 0.926,
+      "eje_descenso_curricular": 0.63
+    },
+    "municipio_code": "25743"
   },
   {
     "id": "125745000166",
@@ -20529,7 +21471,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6937,
+      "eje_transformacion_practicas": 0.9333,
+      "eje_descenso_curricular": 0.55
+    },
+    "municipio_code": "25745"
   },
   {
     "id": "225758000038",
@@ -20707,7 +21655,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.75,
+      "eje_transformacion_practicas": 0.9,
+      "eje_descenso_curricular": 0.7667
+    },
+    "municipio_code": "25758"
   },
   {
     "id": "125758002915",
@@ -20880,7 +21834,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7256,
+      "eje_transformacion_practicas": 0.9675,
+      "eje_descenso_curricular": 0.53
+    },
+    "municipio_code": "25758"
   },
   {
     "id": "225758000046",
@@ -20968,7 +21928,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6333,
+      "eje_transformacion_practicas": 0.5,
+      "eje_descenso_curricular": 0.7
+    },
+    "municipio_code": "25758"
   },
   {
     "id": "125769000213",
@@ -21146,7 +22112,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.787,
+      "eje_transformacion_practicas": 0.92,
+      "eje_descenso_curricular": 0.7967
+    },
+    "municipio_code": "25769"
   },
   {
     "id": "225769060580",
@@ -21334,7 +22306,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.63,
+      "eje_transformacion_practicas": 0.852,
+      "eje_descenso_curricular": 0.526
+    },
+    "municipio_code": "25769"
   },
   {
     "id": "125772000194",
@@ -21436,7 +22414,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6517,
+      "eje_transformacion_practicas": 0.605,
+      "eje_descenso_curricular": 0.675
+    },
+    "municipio_code": "25772"
   },
   {
     "id": "225772000270",
@@ -21541,7 +22525,13 @@
       "especialidad_COMERCIAL": true,
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6517,
+      "eje_transformacion_practicas": 0.605,
+      "eje_descenso_curricular": 0.675
+    },
+    "municipio_code": "25772"
   },
   {
     "id": "225772000067",
@@ -21639,7 +22629,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.605,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25772"
   },
   {
     "id": "225777000189",
@@ -21740,7 +22736,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7583,
+      "eje_transformacion_practicas": 0.85,
+      "eje_descenso_curricular": 0.7125
+    },
+    "municipio_code": "25777"
   },
   {
     "id": "125777000168",
@@ -21843,7 +22845,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7017,
+      "eje_transformacion_practicas": 0.68,
+      "eje_descenso_curricular": 0.7125
+    },
+    "municipio_code": "25777"
   },
   {
     "id": "125779000149",
@@ -21946,7 +22954,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6683,
+      "eje_transformacion_practicas": 0.63,
+      "eje_descenso_curricular": 0.6875
+    },
+    "municipio_code": "25779"
   },
   {
     "id": "225785000414",
@@ -22069,7 +23083,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.832,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 0.93
+    },
+    "municipio_code": "25785"
   },
   {
     "id": "125785000100",
@@ -22247,7 +23267,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7422,
+      "eje_transformacion_practicas": 0.92,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25785"
   },
   {
     "id": "225797000207",
@@ -22410,7 +23436,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7188,
+      "eje_transformacion_practicas": 0.7833,
+      "eje_descenso_curricular": 0.75
+    },
+    "municipio_code": "25797"
   },
   {
     "id": "125797000130",
@@ -22575,7 +23607,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6687,
+      "eje_transformacion_practicas": 0.7833,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25797"
   },
   {
     "id": "125799000161",
@@ -22666,7 +23704,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 1.0,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 1.0
+    },
+    "municipio_code": "25799"
   },
   {
     "id": "225799000026",
@@ -22840,7 +23884,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.808,
+      "eje_transformacion_practicas": 0.895,
+      "eje_descenso_curricular": 0.7
+    },
+    "municipio_code": "25799"
   },
   {
     "id": "225799000034",
@@ -23029,7 +24079,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7167,
+      "eje_transformacion_practicas": 0.91,
+      "eje_descenso_curricular": 0.7125
+    },
+    "municipio_code": "25799"
   },
   {
     "id": "125807000257",
@@ -23132,7 +24188,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6183,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25807"
   },
   {
     "id": "225815000392",
@@ -23232,7 +24294,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25815"
   },
   {
     "id": "125815000401",
@@ -23336,7 +24404,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6183,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25815"
   },
   {
     "id": "225817000268",
@@ -23514,7 +24588,13 @@
       "especialidad": "INDUSTRIAL,ACADÉMICA",
       "especialidad_INDUSTRIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.83,
+      "eje_transformacion_practicas": 0.9675,
+      "eje_descenso_curricular": 0.9
+    },
+    "municipio_code": "25817"
   },
   {
     "id": "225817000021",
@@ -23693,7 +24773,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.732,
+      "eje_transformacion_practicas": 0.8925,
+      "eje_descenso_curricular": 0.6667
+    },
+    "municipio_code": "25817"
   },
   {
     "id": "125817000115",
@@ -23885,7 +24971,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7317,
+      "eje_transformacion_practicas": 0.886,
+      "eje_descenso_curricular": 0.6125
+    },
+    "municipio_code": "25817"
   },
   {
     "id": "225823000041",
@@ -23984,7 +25076,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6517,
+      "eje_transformacion_practicas": 0.63,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25823"
   },
   {
     "id": "225823000458",
@@ -24083,7 +25181,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.535,
+      "eje_transformacion_practicas": 0.48,
+      "eje_descenso_curricular": 0.5625
+    },
+    "municipio_code": "25823"
   },
   {
     "id": "125823000291",
@@ -24183,7 +25287,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5467,
+      "eje_transformacion_practicas": 0.415,
+      "eje_descenso_curricular": 0.6125
+    },
+    "municipio_code": "25823"
   },
   {
     "id": "225839000121",
@@ -24285,7 +25395,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.58,
+      "eje_transformacion_practicas": 0.44,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25839"
   },
   {
     "id": "225839001071",
@@ -24384,7 +25500,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6183,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25839"
   },
   {
     "id": "225839000911",
@@ -24482,7 +25604,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7017,
+      "eje_transformacion_practicas": 0.68,
+      "eje_descenso_curricular": 0.7125
+    },
+    "municipio_code": "25839"
   },
   {
     "id": "425839001071",
@@ -24583,7 +25711,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6683,
+      "eje_transformacion_practicas": 0.63,
+      "eje_descenso_curricular": 0.6875
+    },
+    "municipio_code": "25839"
   },
   {
     "id": "125839000488",
@@ -24670,7 +25804,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7,
+      "eje_transformacion_practicas": 0.6,
+      "eje_descenso_curricular": 0.75
+    },
+    "municipio_code": "25839"
   },
   {
     "id": "225839000270",
@@ -24756,7 +25896,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6,
+      "eje_transformacion_practicas": 0.5,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25839"
   },
   {
     "id": "125843000255",
@@ -24850,7 +25996,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 1.0,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 1.0
+    },
+    "municipio_code": "25843"
   },
   {
     "id": "225843000063",
@@ -25024,7 +26176,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.809,
+      "eje_transformacion_practicas": 0.9375,
+      "eje_descenso_curricular": 0.73
+    },
+    "municipio_code": "25843"
   },
   {
     "id": "525843000017",
@@ -25198,7 +26356,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7311,
+      "eje_transformacion_practicas": 0.845,
+      "eje_descenso_curricular": 0.9
+    },
+    "municipio_code": "25843"
   },
   {
     "id": "125843000247",
@@ -25288,7 +26452,13 @@
       "especialidad": "ESCUELA NORMAL,ACADÉMICA",
       "especialidad_ESCUELA_NORMAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6667,
+      "eje_transformacion_practicas": 0.55,
+      "eje_descenso_curricular": 0.725
+    },
+    "municipio_code": "25843"
   },
   {
     "id": "125851000116",
@@ -25390,7 +26560,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6017,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25851"
   },
   {
     "id": "125506000197",
@@ -25494,7 +26670,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.685,
+      "eje_transformacion_practicas": 0.63,
+      "eje_descenso_curricular": 0.7125
+    },
+    "municipio_code": "25506"
   },
   {
     "id": "125862000355",
@@ -25642,7 +26824,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6014,
+      "eje_transformacion_practicas": 0.605,
+      "eje_descenso_curricular": 0.7
+    },
+    "municipio_code": "25862"
   },
   {
     "id": "225862000490",
@@ -25744,7 +26932,13 @@
       "especialidad": "COMERCIAL,ACADÉMICA",
       "especialidad_COMERCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6625
+    },
+    "municipio_code": "25862"
   },
   {
     "id": "125871000163",
@@ -25847,7 +27041,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.685,
+      "eje_transformacion_practicas": 0.63,
+      "eje_descenso_curricular": 0.7125
+    },
+    "municipio_code": "25871"
   },
   {
     "id": "125873000403",
@@ -25949,7 +27149,13 @@
       "especialidad": "INDUSTRIAL,ACADÉMICA",
       "especialidad_INDUSTRIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.585,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6125
+    },
+    "municipio_code": "25873"
   },
   {
     "id": "125873000209",
@@ -26051,7 +27257,13 @@
       "especialidad": "ESCUELA NORMAL,ACADÉMICA",
       "especialidad_ESCUELA_NORMAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.65,
+      "eje_transformacion_practicas": 0.65,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25873"
   },
   {
     "id": "225875000324",
@@ -26142,7 +27354,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.89,
+      "eje_transformacion_practicas": 1.0,
+      "eje_descenso_curricular": 0.78
+    },
+    "municipio_code": "25875"
   },
   {
     "id": "125875000265",
@@ -26320,7 +27538,13 @@
       "caracter_TÉCNICO": true,
       "especialidad": "PROMOCION SOCIAL",
       "especialidad_PROMOCION_SOCIAL": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.707,
+      "eje_transformacion_practicas": 0.8675,
+      "eje_descenso_curricular": 0.6333
+    },
+    "municipio_code": "25875"
   },
   {
     "id": "225875000553",
@@ -26510,7 +27734,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6423,
+      "eje_transformacion_practicas": 0.762,
+      "eje_descenso_curricular": 0.608
+    },
+    "municipio_code": "25875"
   },
   {
     "id": "125875000281",
@@ -26704,7 +27934,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6869,
+      "eje_transformacion_practicas": 0.766,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25875"
   },
   {
     "id": "125878000029",
@@ -26806,7 +28042,13 @@
       "especialidad": "OTRO,ACADÉMICA",
       "especialidad_OTRO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6183,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25878"
   },
   {
     "id": "225878000708",
@@ -26906,7 +28148,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.605,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25878"
   },
   {
     "id": "225878000431",
@@ -27009,7 +28257,13 @@
       "especialidad": "PROMOCION SOCIAL,ACADÉMICA",
       "especialidad_PROMOCION_SOCIAL": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.635,
+      "eje_transformacion_practicas": 0.605,
+      "eje_descenso_curricular": 0.65
+    },
+    "municipio_code": "25878"
   },
   {
     "id": "225878000112",
@@ -27108,7 +28362,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.5633,
+      "eje_transformacion_practicas": 0.44,
+      "eje_descenso_curricular": 0.625
+    },
+    "municipio_code": "25878"
   },
   {
     "id": "225885002031",
@@ -27208,7 +28468,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.6183,
+      "eje_transformacion_practicas": 0.58,
+      "eje_descenso_curricular": 0.6375
+    },
+    "municipio_code": "25885"
   },
   {
     "id": "125885001596",
@@ -27309,7 +28575,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7017,
+      "eje_transformacion_practicas": 0.68,
+      "eje_descenso_curricular": 0.7125
+    },
+    "municipio_code": "25885"
   },
   {
     "id": "225885001884",
@@ -27409,7 +28681,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7017,
+      "eje_transformacion_practicas": 0.68,
+      "eje_descenso_curricular": 0.7125
+    },
+    "municipio_code": "25885"
   },
   {
     "id": "225885001001",
@@ -27511,7 +28789,13 @@
       "especialidad": "AGROPECUARIO,ACADÉMICA",
       "especialidad_AGROPECUARIO": true,
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7183,
+      "eje_transformacion_practicas": 0.705,
+      "eje_descenso_curricular": 0.725
+    },
+    "municipio_code": "25885"
   },
   {
     "id": "225885000853",
@@ -27611,7 +28895,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7183,
+      "eje_transformacion_practicas": 0.705,
+      "eje_descenso_curricular": 0.725
+    },
+    "municipio_code": "25885"
   },
   {
     "id": "225885002074",
@@ -27713,7 +29003,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.585,
+      "eje_transformacion_practicas": 0.53,
+      "eje_descenso_curricular": 0.6125
+    },
+    "municipio_code": "25885"
   },
   {
     "id": "225898800000",
@@ -27888,7 +29184,13 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.772,
+      "eje_transformacion_practicas": 0.83,
+      "eje_descenso_curricular": 0.8333
+    },
+    "municipio_code": "25898"
   },
   {
     "id": "125898000203",
@@ -28076,6 +29378,12 @@
       "caracter_ACADÉMICO": true,
       "especialidad": "ACADÉMICA",
       "especialidad_ACADÉMICA": true
-    }
+    },
+    "metricas": {
+      "pct_avance_global": 0.7027,
+      "eje_transformacion_practicas": 0.806,
+      "eje_descenso_curricular": 0.5875
+    },
+    "municipio_code": "25898"
   }
 ]

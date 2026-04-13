@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Usuario - DataPromce</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        
+        :root {
+            --primary: #1e293b;
+            --blue: #3b82f6;
+            --green: #16a34a;
+            --orange: #ea580c;
+            --text: #334155;
+            --bg: #f8fafc;
+            --border: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 20px 40px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: var(--primary);
+            font-weight: 800;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 1.4rem;
+            margin-top: 0;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: var(--blue);
+            font-size: 1.1rem;
+            margin-top: 25px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .metric-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: white;
+            margin-right: 8px;
+        }
+
+        .code-inline {
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.9em;
+            color: #475569;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="assets/logotipo.png" alt="Logo" style="height: 40px;">
+        <h1>Guía de Uso: Dashboard DataPromce</h1>
+    </header>
+
+    <div class="container">
+        
+        <div class="section">
+            <h2>Introducción</h2>
+            <p>Bienvenido a la guía de usuario del <strong>Dashboard DataPromce</strong>. Esta herramienta permite explorar, filtrar y analizar el progreso de las Instituciones Educativas Departamentales (IED) en Cundinamarca a través de diversas métricas y etapas del programa.</p>
+        </div>
+
+        <div class="section">
+            <h2>1. Módulos y Filtros</h2>
+            <p>En la parte superior encontrarás el panel de filtros. Estos filtros son acumulativos (se combinan entre sí) y actualizan en tiempo real todas las gráficas y mapas.</p>
+            <ul>
+                <li><strong>Módulos (Municipio, Zona, Sector, etc.):</strong> Haz clic en cualquier botón para desplegar una lista de opciones. Puedes seleccionar múltiples valores en cada filtro.</li>
+                <li><strong>Agregación:</strong> Permite filtrar por las diferentes agrupaciones pedagógicas de los colegios. Solo los colegios que pertenezcan a la(s) agrupación(es) seleccionada(s) serán visibles.</li>
+                <li><strong>Búsqueda:</strong> Un campo de texto que te permite buscar una institución específica por su nombre.</li>
+                <li><strong>Limpiar todo:</strong> El botón "Quitar todo" restablece todos los filtros a su estado inicial.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="mapa-ied">
+            <h2>2. Mapa de Instituciones (Avance por IED)</h2>
+            <p>Este mapa renderiza un punto físico para cada colegio en el departamento. Puedes cambiar el color de los puntos usando los botones superiores:</p>
+            <ul>
+                <li><span class="metric-badge" style="background:#64748b;">Participación</span> Colorea los puntos según la cantidad de etapas (de 0 a 6) en las que el colegio ha participado.</li>
+                <li><span class="metric-badge" style="background:var(--blue);">% Avance Global</span> Colorea la intensidad del progreso promedio del colegio.</li>
+                <li><span class="metric-badge" style="background:var(--green);">T. Prácticas Docentes</span> Muestra el avance específico en el eje de Transformación de Prácticas Docentes.</li>
+                <li><span class="metric-badge" style="background:var(--orange);">A. Descenso Curricular</span> Muestra el avance específico en el eje de Descenso Curricular.</li>
+            </ul>
+            <p><em>Tip:</em> Hacer clic en cualquier punto del mapa abrirá automáticamente el Perfil Institucional de ese colegio en el panel derecho.</p>
+        </div>
+
+        <div class="section" id="mapa-municipio">
+            <h2>3. Mapa Coroplético (Avance por Municipio)</h2>
+            <p>Este mapa agrupa la información por geografía. No muestra colegios individuales, sino que rellena ("pinta") el área completa de cada municipio de Cundinamarca de acuerdo al promedio de las métricas de todos los colegios contenidos dentro de ese municipio.</p>
+            <p>Al igual que el mapa de puntos, puedes alternar entre % Avance Global, T. Prácticas Docentes y A. Descenso Curricular usando los botones.</p>
+            <p><em>Interactividad:</em> Al hacer clic sobre el área de un municipio, el dashboard aplicará automáticamente un filtro para mostrar únicamente los datos de ese municipio en específico en el resto de los módulos.</p>
+        </div>
+
+        <div class="section" id="sankey">
+            <h2>4. Gráfico de Transición entre Etapas (Sankey)</h2>
+            <p>Este es el diagrama de flujos ubicado en la esquina superior derecha. Muestra cómo fluyen las instituciones a través de las 6 etapas del programa.</p>
+            <p>El grosor de cada línea representa el volumen de colegios que logran transitar de una etapa específica a la siguiente (por ejemplo, de la Etapa 1 a la Etapa 2). Sirve para identificar "cuellos de botella" o fases donde existe mayor deserción institucional.</p>
+        </div>
+
+        <div class="section" id="tabla-resultados">
+            <h2>5. Tabla de Resultados y Variables</h2>
+            <p>Se encuentra en la parte inferior (inicia oculta, haz clic en "Mostrar Tabla"). Es un repositorio tabular interactivo con las siguientes variables:</p>
+            <ul>
+                <li><strong>Participación (E1 a E6):</strong> Indica de manera binaria (verde/gris) si el colegio está cursando o ya cursó esa etapa particular.</li>
+                <li><strong>Avance Global (%):</strong> Progreso acumulado del colegio a lo largo de todo el programa.</li>
+                <li><strong>Transformación de Prácticas:</strong> Porcentaje de progreso en las habilidades formativas del cuerpo docente de la institución.</li>
+                <li><strong>Descenso Curricular:</strong> Porcentaje que refleja en qué medida los cambios pedagógicos han permeado el currículo escolar institucional.</li>
+                <li><strong>Detalle de Criterios (0 a 4):</strong> Los bloques que van del E1 al E6 expanden los criterios que se evalúan en cada etapa. Cada criterio recibe una calificación numérica, usualmente de 0 a 4, que se refleja con diferentes colores (Rojo = bajo, Verde oscuro = excepcional).</li>
+            </ul>
+        </div>
+
+        <div class="section" id="histogramas">
+            <h2>6. Histogramas por Etapa (Contexto y Avance Global)</h2>
+            <p>Esta sección consolida las métricas a nivel general, distribuidas por etapas.</p>
+            <p>El diseño se divide por cada etapa (Etapa 1, Etapa 2, etc.). Cada etapa cuenta con <strong>criterios específicos</strong> de evaluación, que se muestran en formato de barras. Estas gráficas ilustran el promedio ponderado de calificación obtenida por todas las instituciones que se encuentran actualmente en dicha etapa, en base a los ejes evaluados.</p>
+        </div>
+
+        <div class="section" id="perfil-institucional">
+            <h2>7. Perfil Institucional (Panel Lateral)</h2>
+            <p>Este panel (que puedes mostrar/ocultar con el botón derecho superior) permite un análisis profundo tipo "radiografía" de una IED específica. Para abrirlo, basta con que hagas clic en un punto de colegio en el mapa o en el botón "Perfil" de la Tabla de Resultados.</p>
+            <ul>
+                <li><strong>Encabezado:</strong> Presenta el nombre de la institución, modelo pedagógico, y agregación pedagógica.</li>
+                <li><strong>Métricas Resumen:</strong> Muestra los tres ejes transversales en forma de barra de progreso (% Avance Global, Transformación de Prácticas y Avance Descenso Curricular).</li>
+                <li><strong>Criterios Cualitativos:</strong> En lista, podrás leer textualmente los hallazgos, recomendaciones y estado de los criterios por cada etapa que el colegio ha cursado.</li>
+                <li><strong>Descarga:</strong> Al final del panel encuentras un botón "Descargar Ficha PDF". Esto genera un documento ejecutivo de manera instantánea con toda la información cualitativa y cuantitativa renderizada del colegio, ideal para reportes y seguimiento fuera de la web.</li>
+            </ul>
+        </div>
+        
+    </div>
+
+</body>
+</html>

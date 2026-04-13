@@ -267,9 +267,23 @@
             line-height: 1.4;
         }
 
-        .qual-item.logros { border-left-color: #10b981; background: #f0fdf4; color: #065f46; }
-        .qual-item.retos { border-left-color: #f43f5e; background: #fff1f2; color: #991b1b; }
-        .qual-item.sugerencias { border-left-color: #3b82f6; background: #eff6ff; color: #1e40af; }
+        .qual-item.logros {
+            border-left-color: #10b981;
+            background: #f0fdf4;
+            color: #065f46;
+        }
+
+        .qual-item.retos {
+            border-left-color: #f43f5e;
+            background: #fff1f2;
+            color: #991b1b;
+        }
+
+        .qual-item.sugerencias {
+            border-left-color: #3b82f6;
+            background: #eff6ff;
+            color: #1e40af;
+        }
 
         .collapsible-text {
             margin-top: 12px;
@@ -604,6 +618,29 @@
             flex-direction: column;
         }
 
+        /* Botones de métrica en los mapas */
+        .map-metric-btn {
+            flex: 1 1 0%;
+            width: 0 !important;         /* fuerza que flex distribuya por igual */
+            padding: 7px 6px !important;
+            font-size: 0.7rem !important;
+            font-weight: 700;
+            border: 1.5px solid #cbd5e1;
+            border-radius: 99px !important;
+            background: #fff;
+            color: #475569;
+            cursor: pointer;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transition: all 0.18s;
+        }
+        .map-metric-btn:hover {
+            background: #f8fafc;
+            border-color: #94a3b8;
+        }
+
         .table-section {
             background: white;
             border: 1px solid #e2e8f0;
@@ -630,24 +667,30 @@
             <h1>DataPromce</h1>
         </div>
         <div class="header-actions top-logos">
-            <button
+                <button
                 @click="sidebarHidden = !sidebarHidden; setTimeout(() => { drawSankey(); if(map) map.invalidateSize(); }, 350)"
                 style="margin-right: 20px; padding: 8px 16px; border-radius: 8px; border: 1px solid #e2e8f0; background: white; color: var(--text-main); font-size: 0.8rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: all 0.2s; box-shadow: 0 1px 2px rgba(0,0,0,0.05);"
                 onmouseover="this.style.borderColor='#cbd5e1'; this.style.background='#f8fafc'"
                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.background='white'">
-                <!-- Icono de flechas -->
-                <svg x-show="!sidebarHidden" style="width:16px; height:16px;" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-                </svg>
-                <svg x-show="sidebarHidden" style="width:16px; height:16px;" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M11 19l-7-7 7-7M19 19l-7-7 7-7" />
-                </svg>
-                <span x-text="sidebarHidden ? 'Mostrar Perfil' : 'Ocultar Perfil'"></span>
-            </button>
+                    <!-- Icono de flechas -->
+                    <svg x-show="!sidebarHidden" style="width:16px; height:16px;" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                    </svg>
+                    <svg x-show="sidebarHidden" style="width:16px; height:16px;" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M11 19l-7-7 7-7M19 19l-7-7 7-7" />
+                    </svg>
+                    <span x-text="sidebarHidden ? 'Mostrar Perfil' : 'Ocultar Perfil'"></span>
+                </button>
+                <!-- Link Guía del usuario -->
+                <a href="guia.html" target="_blank" style="text-decoration:none; margin-right:16px;" title="Ver guía de uso del dashboard">
+                    <span style="display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;background:#e2e8f0;color:#64748b;font-size:0.7rem;font-weight:800;transition:all 0.2s;"
+                          onmouseover="this.style.background='#cbd5e1'; this.style.color='#1e293b';"
+                          onmouseout="this.style.background='#e2e8f0'; this.style.color='#64748b';">i</span>
+                </a>
             <img src="assets/Universidad de la Sabana.png" alt="Universidad de la Sabana"
                 style="height: 40px; margin-right: 15px; object-fit: contain;">
             <img src="assets/Govlab.png" alt="Goblab" style="height: 40px; object-fit: contain;">
@@ -837,10 +880,10 @@
                         </div>
                     </div>
 
-                    <!-- Familia (Multi) -->
+                    <!-- Agregación (Multi) -->
                     <div x-data="{ open: false }" @click.away="open = false" style="position:relative;">
                         <button @click="open = !open" class="facet-select" style="width:155px;">
-                            <span x-text="filterFamilia.length > 0 ? filterFamilia.length + ' Fam.' : 'Familia'"
+                            <span x-text="filterFamilia.length > 0 ? filterFamilia.length + ' Agr.' : 'Agregación'"
                                 style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"></span>
                             <svg :style="open ? 'transform:rotate(180deg)' : ''" class="filter-arrow-icon" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
@@ -897,6 +940,11 @@
                         <span
                             style="font-size:0.7rem; color:#64748b; background:#f1f5f9; padding:2px 10px; border-radius:99px;"
                             x-text="filteredIEDs.length + ' encontrados'"></span>
+                        <a href="guia.html#tabla-resultados" target="_blank" style="text-decoration:none;" title="Ver guía de uso: Tabla de Resultados">
+                            <span style="display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:50%;background:#e2e8f0;color:#64748b;font-size:0.65rem;font-weight:800;transition:all 0.2s;"
+                                  onmouseover="this.style.background='#cbd5e1'; this.style.color='#1e293b';"
+                                  onmouseout="this.style.background='#e2e8f0'; this.style.color='#64748b';">i</span>
+                        </a>
                     </div>
                     <button @click="tableVisible = !tableVisible"
                         style="padding:6px 14px; border-radius:6px; background:#fff; border:1px solid #cbd5e1; font-size:0.75rem; font-weight:700; cursor:pointer;"
@@ -997,12 +1045,96 @@
 
             <!-- 3. GRÁFICAS: MAPA + SANKEY -->
             <div class="top-row">
-                <div class="map-card">
-                    <div class="card-header"><span>Mapa Regional</span></div>
+                <!-- Mapa IED -->
+                <div class="map-card" style="display:flex; flex-direction:column;">
+                    <!-- Fila A: solo título -->
+                    <div style="padding:10px 14px 4px; display:flex; align-items:center; gap:6px;">
+                        <span style="font-size:0.85rem; font-weight:700; color:#0f172a;">Avance por IED</span>
+                        <a href="guia.html#mapa-ied" target="_blank" style="text-decoration:none;" title="Ver guía de uso: Mapa de IED">
+                            <span style="display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;background:#e2e8f0;color:#64748b;font-size:0.6rem;font-weight:800;transition:all 0.2s;"
+                                  onmouseover="this.style.background='#cbd5e1'; this.style.color='#1e293b';"
+                                  onmouseout="this.style.background='#e2e8f0'; this.style.color='#64748b';">i</span>
+                        </a>
+                    </div>
+                    <!-- Fila B: botones métrica -->
+                    <div style="display:flex; gap:6px; padding:4px 12px 6px;">
+                        <button @click="iedMetric='participacion'; updateMarkers()"
+                            :style="iedMetric==='participacion' ? 'background:var(--primary);color:#fff;border-color:var(--primary);' : ''"
+                            class="map-metric-btn">Participación</button>
+                        <button @click="iedMetric='pct_avance_global'; updateMarkers()"
+                            :style="iedMetric==='pct_avance_global' ? 'background:#3b82f6;color:#fff;border-color:#3b82f6;' : ''"
+                            class="map-metric-btn">% Avance Global</button>
+                        <button @click="iedMetric='eje_transformacion_practicas'; updateMarkers()"
+                            :style="iedMetric==='eje_transformacion_practicas' ? 'background:#16a34a;color:#fff;border-color:#16a34a;' : ''"
+                            class="map-metric-btn">T. Prácticas Docentes</button>
+                        <button @click="iedMetric='eje_descenso_curricular'; updateMarkers()"
+                            :style="iedMetric==='eje_descenso_curricular' ? 'background:#ea580c;color:#fff;border-color:#ea580c;' : ''"
+                            class="map-metric-btn">A. Descenso Curricular</button>
+                    </div>
+                    <!-- Fila C: leyenda dinámica -->
+                    <div style="padding:2px 12px 8px; border-bottom:1px solid #f1f5f9; font-size:0.58rem; color:#64748b;">
+                        <!-- Puntos de etapas (participación) -->
+                        <div :style="iedMetric === 'participacion' ? 'display:flex' : 'display:none'" style="gap:10px; align-items:center; flex-wrap:wrap;">
+                            <span style="display:flex;align-items:center;gap:3px;"><span style="width:8px;height:8px;border-radius:50%;background:#94a3b8;display:inline-block;"></span>0 etapas</span>
+                            <span style="display:flex;align-items:center;gap:3px;"><span style="width:8px;height:8px;border-radius:50%;background:#e3001b;display:inline-block;"></span>1–2</span>
+                            <span style="display:flex;align-items:center;gap:3px;"><span style="width:8px;height:8px;border-radius:50%;background:#f1c40f;display:inline-block;"></span>3</span>
+                            <span style="display:flex;align-items:center;gap:3px;"><span style="width:8px;height:8px;border-radius:50%;background:#00b0f0;display:inline-block;"></span>4–5</span>
+                            <span style="display:flex;align-items:center;gap:3px;"><span style="width:8px;height:8px;border-radius:50%;background:#003366;display:inline-block;"></span>6</span>
+                        </div>
+                        <!-- Barra de gradiente (métricas de avance) -->
+                        <div :style="iedMetric !== 'participacion' ? 'display:flex' : 'display:none'" style="align-items:center; gap:6px;">
+                            <span>0%</span>
+                            <div style="flex:1; height:8px; border-radius:4px;"
+                                :style="iedMetric==='pct_avance_global' ? 'background:linear-gradient(to right,#bfdbfe,#1e40af)' : iedMetric==='eje_transformacion_practicas' ? 'background:linear-gradient(to right,#bbf7d0,#15803d)' : iedMetric==='eje_descenso_curricular' ? 'background:linear-gradient(to right,#fed7aa,#c2410c)' : 'background:#e2e8f0'">
+                            </div>
+                            <span>100%</span>
+                        </div>
+                    </div>
                     <div class="content-area">
                         <div id="map"></div>
                     </div>
                 </div>
+
+                <!-- ── Mapa Coroplético ── -->
+                <div class="map-card" style="display:flex; flex-direction:column;">
+                    <!-- Fila A: solo título -->
+                    <div style="padding:10px 14px 4px; display:flex; align-items:center; gap:6px;">
+                        <span style="font-size:0.85rem; font-weight:700; color:#0f172a;">Avance por Municipio</span>
+                        <a href="guia.html#mapa-municipio" target="_blank" style="text-decoration:none;" title="Ver guía de uso: Mapa Coroplético">
+                            <span style="display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;background:#e2e8f0;color:#64748b;font-size:0.6rem;font-weight:800;transition:all 0.2s;"
+                                  onmouseover="this.style.background='#cbd5e1'; this.style.color='#1e293b';"
+                                  onmouseout="this.style.background='#e2e8f0'; this.style.color='#64748b';">i</span>
+                        </a>
+                    </div>
+                    <!-- Fila B: botones métrica -->
+                    <div style="display:flex; gap:6px; padding:4px 12px 6px;">
+                        <button @click="choroMetric='pct_avance_global'; updateChoropleth()"
+                            :style="choroMetric==='pct_avance_global' ? 'background:var(--primary);color:#fff;border-color:var(--primary);' : ''"
+                            class="map-metric-btn">% Avance Global</button>
+                        <button @click="choroMetric='eje_transformacion_practicas'; updateChoropleth()"
+                            :style="choroMetric==='eje_transformacion_practicas' ? 'background:#16a34a;color:#fff;border-color:#16a34a;' : ''"
+                            class="map-metric-btn">T. Prácticas Docentes</button>
+                        <button @click="choroMetric='eje_descenso_curricular'; updateChoropleth()"
+                            :style="choroMetric==='eje_descenso_curricular' ? 'background:#ea580c;color:#fff;border-color:#ea580c;' : ''"
+                            class="map-metric-btn">A. Descenso Curricular</button>
+                    </div>
+                    <!-- Fila C: escala + sin datos + hint -->
+                    <div style="display:flex; align-items:center; gap:8px; padding:2px 14px 6px; border-bottom:1px solid #f1f5f9; font-size:0.58rem; color:#64748b;">
+                        <span>0%</span>
+                        <div style="flex:1; height:7px; border-radius:4px; min-width:40px;"
+                            :style="`background:linear-gradient(to right,${choroMetric==='pct_avance_global'?'#bfdbfe,#1d4ed8':choroMetric==='eje_transformacion_practicas'?'#bbf7d0,#15803d':'#fed7aa,#c2410c'})`">
+                        </div>
+                        <span>100%</span>
+                        <span style="display:flex;align-items:center;gap:3px;margin-left:8px;font-style:italic;">
+                            <span style="display:inline-block;width:10px;height:10px;background:#94a3b8;border-radius:2px;"></span>Sin datos
+                        </span>
+                        <span style="color:#3b82f6;margin-left:4px;">· Click = filtrar</span>
+                    </div>
+                    <div class="content-area" style="height:350px; flex:none;">
+                        <div id="choroMap" style="width:100%; height:100%;"></div>
+                    </div>
+                </div>
+
                 <div class="sankey-card">
                     <div class="card-header"><span>Transición entre Etapas</span></div>
                     <div class="content-area">
@@ -1053,7 +1185,7 @@
                             style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:25px;">
                             <!-- Gráficos Categorizados (Bar Charts) -->
                             <template
-                                x-for="field in [{id:'municipio', label:'Municipio'}, {id:'zona', label:'Zona'}, {id:'caracter', label:'Carácter'}, {id:'modelo_clasificado', label:'Modelo'}, {id:'enfoque_clasificado', label:'Enfoque'}, {id:'familia_pedagogica', label:'Familia'}]">
+                                x-for="field in [{id:'municipio', label:'Municipio'}, {id:'zona', label:'Zona'}, {id:'caracter', label:'Carácter'}, {id:'modelo_clasificado', label:'Modelo'}, {id:'enfoque_clasificado', label:'Enfoque'}, {id:'familia_pedagogica', label:'Agregación'}]">
                                 <div style="background:#fff; padding:18px; border-radius:12px; border:1px solid #e2e8f0; max-height:220px; overflow-y:auto;"
                                     class="hover-card">
                                     <h5 style="font-size:0.75rem; font-weight:800; color:#475569; margin:0 0 12px 0; text-transform:uppercase;"
@@ -1100,6 +1232,47 @@
                                     <span>MAX</span>
                                 </div>
                             </div>
+
+                            <!-- ── Histogramas: Métricas de Avance ── -->
+                            <template x-for="metric in [
+                                { key: 'pct_avance_global',            label: '% Avance Global',                      color: '#3b82f6', bg: '#eff6ff', border: '#bfdbfe', track: '#dbeafe' },
+                                { key: 'eje_transformacion_practicas', label: 'Transformación de las Prácticas',       color: '#16a34a', bg: '#f0fdf4', border: '#bbf7d0', track: '#dcfce7' },
+                                { key: 'eje_descenso_curricular',      label: 'Descenso Curricular',                  color: '#ea580c', bg: '#fff7ed', border: '#fed7aa', track: '#ffedd5' }
+                            ]">
+                                <div :style="`background:${metric.bg}; border:1px solid ${metric.border}; border-radius:12px; padding:18px; height:220px; display:flex; flex-direction:column;`"
+                                    class="hover-card">
+                                    <!-- Header -->
+                                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px;">
+                                        <h5 :style="`font-size:0.72rem; font-weight:800; color:${metric.color}; margin:0; text-transform:uppercase; letter-spacing:0.04em; line-height:1.3; max-width:70%;`"
+                                            x-text="metric.label"></h5>
+                                        <template x-if="getMetricasStats(metric.key)">
+                                            <div style="text-align:right; flex-shrink:0;">
+                                                <div style="font-size:1rem; font-weight:900;"
+                                                    :style="`color:${metric.color}`"
+                                                    x-text="getMetricasStats(metric.key).avg + '%'"></div>
+                                                <div style="font-size:0.5rem; color:#94a3b8; font-weight:700;">PROMEDIO</div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                    <!-- Bars -->
+                                    <div style="display:flex; align-items:flex-end; gap:2px; flex:1; padding:6px 2px 2px 2px; background:rgba(255,255,255,0.6); border-radius:8px;">
+                                        <template x-for="bin in getMetricasDistribution(metric.key)">
+                                            <div :style="`flex:1; background:${metric.color}; height:${Math.max(bin.height, 2)}%; opacity:0.82; border-radius:2px 2px 0 0;`"
+                                                :title="`${bin.count} instituciones · ${bin.rangeStart}%–${bin.rangeEnd}%`">
+                                            </div>
+                                        </template>
+                                    </div>
+                                    <!-- X-axis labels -->
+                                    <div style="display:flex; justify-content:space-between; margin-top:5px;">
+                                        <span style="font-size:0.5rem; font-weight:700; color:#94a3b8;">0%</span>
+                                        <span style="font-size:0.5rem; font-weight:700; color:#94a3b8;">50%</span>
+                                        <span style="font-size:0.5rem; font-weight:700; color:#94a3b8;">100%</span>
+                                    </div>
+                                    <!-- Count -->
+                                    <div style="font-size:0.55rem; color:#64748b; margin-top:4px;" x-text="(getMetricasStats(metric.key)?.count || 0) + ' instituciones con datos'"></div>
+                                </div>
+                            </template>
+
                         </div>
                     </div>
 
@@ -1282,21 +1455,22 @@
                                                     Normalizado</span>
                                             </div>
 
-                                            <div style="display:flex; flex-direction:column; gap:10px; max-height:480px; overflow-y:auto; padding-right:8px;">
-                                                <template
-                                                    x-for="item in getQualitativeDistribution(stage, qType.id, qType.color)">
+                                            <div
+                                                style="display:flex; flex-direction:column; gap:10px; max-height:480px; overflow-y:auto; padding-right:8px;">
+                                                <template x-for="item in getQualitativeDistribution(stage, qType.id, qType.color)">
                                                     <div>
-                                                        <div
-                                                            style="display:flex; justify-content:space-between; font-size:0.65rem; font-weight:700; margin-bottom:4px;">
-                                                            <span x-text="item.label"
-                                                                style="color:#334155; flex:1; padding-right:10px;"></span>
-                                                            <span :style="`color:${qType.color};`"
-                                                                x-text="item.count + ' (' + item.totalPct + '%)'"></span>
+                                                        <div style="display:flex; flex-direction:column; gap:4px; font-size:0.65rem; font-weight:700; margin-bottom:4px;">
+                                                            <div style="display:flex; justify-content:space-between; align-items:flex-end;">
+                                                                <span x-text="item.label" style="color:#334155; flex:1; padding-right:10px;"></span>
+                                                                <span :style="`color:${qType.color};`" x-text="item.count + ' (' + item.totalPct + '%)'"></span>
+                                                            </div>
+                                                            <!-- Explicación (2 frases) -->
+                                                            <div x-show="diccionarioCualitativo[item.label]" x-text="diccionarioCualitativo[item.label]"
+                                                                 style="font-size:0.58rem; color:#64748b; font-weight:500; font-style:italic; line-height:1.4; padding-left:14px; border-left:2px solid #e2e8f0; margin-top:2px;">
+                                                            </div>
                                                         </div>
-                                                        <div
-                                                            style="height:8px; background:#e2e8f0; border-radius:10px; overflow:hidden; margin-top:2px;">
-                                                            <div :style="item.barStyle"
-                                                                style="transition: width 1000ms ease-in-out;"></div>
+                                                        <div style="height:8px; background:#e2e8f0; border-radius:10px; overflow:hidden; margin-top:4px; margin-bottom:10px;">
+                                                            <div :style="item.barStyle" style="transition: width 1000ms ease-in-out;"></div>
                                                         </div>
                                                     </div>
                                                 </template>
@@ -1384,7 +1558,7 @@
                             </template>
                             <template x-if="selectedIED.familia_pedagogica">
                                 <span class="modelo-chip">
-                                    <span class="chip-label">Familia:</span>
+                                    <span class="chip-label">Agregación:</span>
                                     <span x-text="selectedIED.familia_pedagogica"></span>
                                 </span>
                             </template>
@@ -1440,12 +1614,12 @@
                                     </div>
                                 </template>
 
-                                <!-- Familia -->
+                                <!-- Agregación -->
                                 <template x-if="selectedIED.familia_pedagogica">
                                     <div style="grid-column: span 2;">
                                         <div
                                             style="color:#94a3b8; font-weight:600; text-transform:uppercase; font-size:0.65rem; margin-bottom:2px;">
-                                            Familia Pedagógica</div>
+                                            Agregación Pedagógica</div>
                                         <div style="font-weight:500; color:#475569;"
                                             x-text="selectedIED.familia_pedagogica"></div>
                                     </div>
@@ -1511,6 +1685,83 @@
                                 </div>
                             </template>
                         </div>
+
+                        <!-- ── MÉTRICAS GLOBALES Y EJES TRANSVERSALES ── -->
+                        <template x-if="selectedIED.metricas">
+                            <div style="margin-bottom:24px;">
+                                <!-- Título sección -->
+                                <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
+                                    <h4
+                                        style="font-size:0.85rem; font-weight:800; color:var(--primary); margin:0; text-transform:uppercase; letter-spacing:0.05em;">
+                                        Resumen de Avance</h4>
+                                    <div
+                                        style="flex:1; height:2px; background:linear-gradient(to right, var(--primary-light), transparent); opacity:0.3;">
+                                    </div>
+                                </div>
+
+                                <!-- Tarjetas de métricas -->
+                                <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:10px;">
+
+                                    <!-- % Avance Global -->
+                                    <div
+                                        style="background:linear-gradient(135deg,#eff6ff,#dbeafe); border:1px solid #bfdbfe; border-radius:12px; padding:14px 12px; text-align:center;">
+                                        <div
+                                            style="font-size:0.6rem; font-weight:800; color:#1d4ed8; text-transform:uppercase; letter-spacing:0.06em; margin-bottom:6px;">
+                                            % Avance Global</div>
+                                        <div style="font-size:1.5rem; font-weight:900; color:#1e40af;"
+                                            x-text="selectedIED.metricas.pct_avance_global != null ? Math.round(selectedIED.metricas.pct_avance_global * 100) + '%' : 'N/D'">
+                                        </div>
+                                        <!-- Barra -->
+                                        <div
+                                            style="height:5px; background:#bfdbfe; border-radius:99px; margin-top:8px; overflow:hidden;">
+                                            <div
+                                                :style="'width:' + (selectedIED.metricas.pct_avance_global != null ? Math.round(selectedIED.metricas.pct_avance_global*100) : 0) + '%; height:100%; background:#3b82f6; border-radius:99px; transition:width 0.6s ease;'">
+                                            </div>
+                                        </div>
+                                        <div style="font-size:0.55rem; color:#3b82f6; margin-top:5px;">Promedio de todos
+                                            los criterios</div>
+                                    </div>
+
+                                    <!-- Eje Transformación Prácticas -->
+                                    <div
+                                        style="background:linear-gradient(135deg,#f0fdf4,#dcfce7); border:1px solid #bbf7d0; border-radius:12px; padding:14px 12px; text-align:center;">
+                                        <div
+                                            style="font-size:0.6rem; font-weight:800; color:#15803d; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px; line-height:1.3;">
+                                            Transformación de las Prácticas Docentes</div>
+                                        <div style="font-size:1.5rem; font-weight:900; color:#16a34a;"
+                                            x-text="selectedIED.metricas.eje_transformacion_practicas != null ? Math.round(selectedIED.metricas.eje_transformacion_practicas * 100) + '%' : 'N/D'">
+                                        </div>
+                                        <div
+                                            style="height:5px; background:#bbf7d0; border-radius:99px; margin-top:8px; overflow:hidden;">
+                                            <div
+                                                :style="'width:' + (selectedIED.metricas.eje_transformacion_practicas != null ? Math.round(selectedIED.metricas.eje_transformacion_practicas*100) : 0) + '%; height:100%; background:#22c55e; border-radius:99px; transition:width 0.6s ease;'">
+                                            </div>
+                                        </div>
+                                        <div style="font-size:0.55rem; color:#16a34a; margin-top:5px;">Eje transversal
+                                        </div>
+                                    </div>
+
+                                    <!-- Eje Descenso Curricular -->
+                                    <div
+                                        style="background:linear-gradient(135deg,#fff7ed,#ffedd5); border:1px solid #fed7aa; border-radius:12px; padding:14px 12px; text-align:center;">
+                                        <div
+                                            style="font-size:0.6rem; font-weight:800; color:#c2410c; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px; line-height:1.3;">
+                                            Avance del Descenso Curricular</div>
+                                        <div style="font-size:1.5rem; font-weight:900; color:#ea580c;"
+                                            x-text="selectedIED.metricas.eje_descenso_curricular != null ? Math.round(selectedIED.metricas.eje_descenso_curricular * 100) + '%' : 'N/D'">
+                                        </div>
+                                        <div
+                                            style="height:5px; background:#fed7aa; border-radius:99px; margin-top:8px; overflow:hidden;">
+                                            <div
+                                                :style="'width:' + (selectedIED.metricas.eje_descenso_curricular != null ? Math.round(selectedIED.metricas.eje_descenso_curricular*100) : 0) + '%; height:100%; background:#f97316; border-radius:99px; transition:width 0.6s ease;'">
+                                            </div>
+                                        </div>
+                                        <div style="font-size:0.55rem; color:#ea580c; margin-top:5px;">Eje transversal
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </template>
 
                         <!-- ══════════════════════════════════════
                              Per-stage detail panels
@@ -2314,28 +2565,39 @@
 
                                     <!-- ── Cualitativo: logros, retos, sugerencias ── -->
                                     <div class="qual-section" x-data="{ showDetailedText: false }">
-                                        
+
                                         <!-- Categorized Lists (Top 5 items) -->
                                         <template x-for="typeObj in [
                                             { id: 'Logros', label: 'Logros Institucionales', class: 'logros', icon: 'M5 13l4 4L19 7' },
                                             { id: 'Retos', label: 'Retos Identificados', class: 'retos', icon: 'M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z' },
                                             { id: 'Sugerencias', label: 'Sugerencias para la Etapa', class: 'sugerencias', icon: 'M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.989-2.386l-.548-.547z' }
                                         ]">
-                                            <div x-show="getInstitutionalQualitativeCategories(s, typeObj.id).length > 0 && !(s === 'e1' && typeObj.id === 'Sugerencias')" style="margin-bottom: 12px;">
+                                            <div x-show="getInstitutionalQualitativeCategories(s, typeObj.id).length > 0 && !(s === 'e1' && typeObj.id === 'Sugerencias')"
+                                                style="margin-bottom: 12px;">
                                                 <div style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;"
-                                                     :style="'color:' + (typeObj.id === 'Logros' ? '#10b981' : typeObj.id === 'Retos' ? '#f43f5e' : '#3b82f6')">
-                                                    <svg style="width: 14px; height: 14px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" :d="typeObj.icon" />
+                                                    :style="'color:' + (typeObj.id === 'Logros' ? '#10b981' : typeObj.id === 'Retos' ? '#f43f5e' : '#3b82f6')">
+                                                    <svg style="width: 14px; height: 14px;" fill="none"
+                                                        viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2.5" :d="typeObj.icon" />
                                                     </svg>
                                                     <span x-text="typeObj.label"></span>
                                                 </div>
                                                 <div class="qual-item-list">
-                                                    <template x-for="catItem in getInstitutionalQualitativeCategories(s, typeObj.id)">
-                                                        <div class="qual-item" :class="typeObj.class">
-                                                            <div style="flex-shrink: 0; margin-top: 2px;">
-                                                                <div style="width: 4px; height: 4px; border-radius: 50%;" :style="'background: currentColor'"></div>
+                                                    <template
+                                                        x-for="catItem in getInstitutionalQualitativeCategories(s, typeObj.id)">
+                                                        <div style="display:flex; flex-direction:column; gap:6px; margin-bottom:12px;">
+                                                            <div class="qual-item" :class="typeObj.class" style="margin-bottom:0;">
+                                                                <div style="flex-shrink: 0; margin-top: 2px;">
+                                                                    <div style="width: 4px; height: 4px; border-radius: 50%;"
+                                                                        :style="'background: currentColor'"></div>
+                                                                </div>
+                                                                <span x-text="catItem"></span>
                                                             </div>
-                                                            <span x-text="catItem"></span>
+                                                            <!-- Explicación (2 frases) -->
+                                                            <div x-show="diccionarioCualitativo[catItem]" x-text="diccionarioCualitativo[catItem]"
+                                                                 style="font-size:0.65rem; color:#64748b; font-style:italic; line-height:1.4; margin-left:14px; padding-left:8px; border-left:2px solid #e2e8f0;">
+                                                            </div>
                                                         </div>
                                                     </template>
                                                 </div>
@@ -2343,16 +2605,20 @@
                                         </template>
 
                                         <!-- Collapsible Original Descriptive Text -->
-                                        <div x-show="selectedIED.detalles[s]?.logros || selectedIED.detalles[s]?.retos || (s !== 'e1' && selectedIED.detalles[s]?.sugerencias)" 
-                                             class="collapsible-text">
-                                            <div class="collapsible-trigger" @click="showDetailedText = !showDetailedText">
+                                        <div x-show="selectedIED.detalles[s]?.logros || selectedIED.detalles[s]?.retos || (s !== 'e1' && selectedIED.detalles[s]?.sugerencias)"
+                                            class="collapsible-text">
+                                            <div class="collapsible-trigger"
+                                                @click="showDetailedText = !showDetailedText">
                                                 <span>Descripción detallada</span>
-                                                <svg class="collapsible-icon" :class="showDetailedText ? 'open' : ''" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                                <svg class="collapsible-icon" :class="showDetailedText ? 'open' : ''"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M19 9l-7 7-7-7" />
                                                 </svg>
                                             </div>
-                                            
-                                            <div x-show="showDetailedText" x-collapse style="display: flex; flex-direction: column; gap: 10px; margin-top: 8px; font-style: italic; color: #64748b; background: #fff; padding: 10px; border-radius: 8px; border: 1px solid #f1f5f9;">
+
+                                            <div x-show="showDetailedText" x-collapse
+                                                style="display: flex; flex-direction: column; gap: 10px; margin-top: 8px; font-style: italic; color: #64748b; background: #fff; padding: 10px; border-radius: 8px; border: 1px solid #f1f5f9;">
                                                 <div x-show="selectedIED.detalles[s]?.logros">
                                                     <span class="qual-label qual-logros">Logros:</span>
                                                     <span x-text="selectedIED.detalles[s]?.logros"></span>
@@ -2423,7 +2689,8 @@
                     search: '',
                     filterMunicipio: [],
                     filterStages: [],
-                    tableVisible: true, // Control de visibilidad de la tabla
+                    tableVisible: false, // Cerrado al inicio
+                    diccionarioCualitativo: {}, // Added for tooltips
                     // Nuevos filtros
                     filterZona: '',
                     filterNiveles: '',
@@ -2451,9 +2718,14 @@
                     filteredIEDs: [],
                     selectedIED: null,
                     isFullScreen: false,
-                    sidebarHidden: false, // Control de visibilidad del panel lateral
+                    sidebarHidden: true, // Perfil cerrado al inicio
                     map: null,
                     markers: [],
+                    iedMetric: 'participacion',
+                    choroMapInstance: null,
+                    choroGeo: null,
+                    choroLayer: null,
+                    choroMetric: 'pct_avance_global',
                     sortCol: 'institucion',
                     sortAsc: true,
                     accionesDictionary: {},
@@ -2588,6 +2860,14 @@
                                 this.qualitativeData = XLSX.utils.sheet_to_json(sheet);
                             })
                             .catch(err => console.error("Error loading qualitative data:", err));
+
+                        // ── Fetch Diccionario Cualitativo (Explicaciones) ──
+                        fetch('data/diccionario_cualitativo.json' + noCacheSuffix)
+                            .then(res => res.json())
+                            .then(data => {
+                                this.diccionarioCualitativo = data;
+                            })
+                            .catch(err => console.error("Error loading qualitative dictionary:", err));
 
                         fetch('data/data_merged.json' + noCacheSuffix)
                             .then(res => res.json())
@@ -3099,6 +3379,36 @@
                         return this.getDistributionForValue(vals, 12);
                     },
 
+                    getMetricasDistribution(metricKey) {
+                        const vals = this.filteredIEDs
+                            .map(ied => ied.metricas?.[metricKey])
+                            .filter(v => typeof v === 'number' && !isNaN(v));
+                        if (!vals.length) return [];
+                        const binCount = 10;
+                        const bins = new Array(binCount).fill(0);
+                        vals.forEach(v => {
+                            let idx = Math.floor(v * binCount);
+                            if (idx >= binCount) idx = binCount - 1;
+                            bins[idx]++;
+                        });
+                        const maxBin = Math.max(...bins) || 1;
+                        return bins.map((count, i) => ({
+                            height: (count / maxBin) * 100,
+                            count: count,
+                            rangeStart: i * 10,
+                            rangeEnd: (i + 1) * 10
+                        }));
+                    },
+
+                    getMetricasStats(metricKey) {
+                        const vals = this.filteredIEDs
+                            .map(ied => ied.metricas?.[metricKey])
+                            .filter(v => typeof v === 'number' && !isNaN(v));
+                        if (!vals.length) return null;
+                        const avg = vals.reduce((a, b) => a + b, 0) / vals.length;
+                        return { avg: Math.round(avg * 100), count: vals.length };
+                    },
+
                     getGlobalStats(stage, criterionKey = null) {
                         let vals;
                         if (criterionKey) {
@@ -3213,6 +3523,105 @@
                             attribution: '&copy; OpenStreetMap contributors'
                         }).addTo(this.map);
                         this.updateMarkers();
+                        // Init choropleth map
+                        this.initChoroMap();
+                    },
+
+                    initChoroMap() {
+                        const el = document.getElementById('choroMap');
+                        if (!el || this.choroMapInstance) return;
+                        this.choroMapInstance = L.map('choroMap', { zoomControl: true }).setView([4.8, -74.1], 8);
+                        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                            maxZoom: 18, attribution: '&copy; OpenStreetMap'
+                        }).addTo(this.choroMapInstance);
+                        // Load GeoJSON (no-cache)
+                        const noCacheSuffix = '?t=' + new Date().getTime();
+                        fetch('data/Cundinamarca.geojson' + noCacheSuffix)
+                            .then(r => r.json())
+                            .then(geo => {
+                                this.choroGeo = geo;
+                                console.log('[Choro] GeoJSON loaded, features:', geo.features.length);
+                                this.updateChoropleth();
+                            })
+                            .catch(err => console.error('[Choro] GeoJSON fetch error:', err));
+                    },
+
+                    updateChoropleth() {
+                        if (!this.choroMapInstance || !this.choroGeo) return;
+                        if (!this.allData || this.allData.length === 0) return;
+                        if (this.choroLayer) { this.choroMapInstance.removeLayer(this.choroLayer); }
+
+                        // Build municipio -> avg metric using field from CSV (via data_merged.json)
+                        const munMap = {};
+                        this.allData.forEach(ied => {
+                            const v = ied.metricas?.[this.choroMetric];
+                            if (typeof v !== 'number' || isNaN(v)) return;
+                            // Use pre-computed municipio_code (from Establecimientos.csv)
+                            const munCode = ied.municipio_code || String(ied.id).slice(1, 6);
+                            if (!munMap[munCode]) munMap[munCode] = { sum: 0, count: 0 };
+                            munMap[munCode].sum += v;
+                            munMap[munCode].count++;
+                        });
+
+                        console.log('[Choro] munMap entries:', Object.keys(munMap).length, 'sample:', Object.entries(munMap).slice(0,3));
+
+                        // Wide color scales per metric (light=low, saturated dark=high)
+                        const scales = {
+                            pct_avance_global:            (t) => `hsl(${210 + t*15},${55+t*35}%,${88-t*63}%)`,
+                            eje_transformacion_practicas: (t) => `hsl(${138},${50+t*42}%,${86-t*64}%)`,
+                            eje_descenso_curricular:      (t) => `hsl(${32 - t*12},${70+t*25}%,${88-t*60}%)`
+                        };
+                        const getColor = scales[this.choroMetric] || scales.pct_avance_global;
+
+                        this.choroLayer = L.geoJSON(this.choroGeo, {
+                            style: (feature) => {
+                                const code = String(feature.properties.MpCodigo).trim();
+                                const entry = munMap[code];
+                                if (!entry || entry.count === 0) {
+                                    return { fillColor: '#94a3b8', fillOpacity: 0.55, color: '#fff', weight: 1 };
+                                }
+                                const avg = entry.sum / entry.count;
+                                return {
+                                    fillColor: getColor(avg),
+                                    fillOpacity: 0.78,
+                                    color: '#fff',
+                                    weight: 1
+                                };
+                            },
+                            onEachFeature: (feature, layer) => {
+                                const code = String(feature.properties.MpCodigo).trim();
+                                const entry = munMap[code];
+                                const nombre = feature.properties.MpNombre;
+                                const metricLabel = {
+                                    pct_avance_global: '% Avance Global',
+                                    eje_transformacion_practicas: 'Transformación Prácticas',
+                                    eje_descenso_curricular: 'Descenso Curricular'
+                                }[this.choroMetric];
+                                const valStr = entry && entry.count > 0
+                                    ? Math.round((entry.sum / entry.count) * 100) + '%'
+                                    : 'Sin datos';
+                                layer.bindTooltip(
+                                    `<b>${nombre}</b><br>${metricLabel}: <b>${valStr}</b>${entry ? '<br><span style="color:#94a3b8;font-size:0.75em;">' + entry.count + ' colegio(s)</span>' : ''}<br><span style="color:#3b82f6;font-size:0.75em;">Click para filtrar</span>`,
+                                    { sticky: true, className: 'map-tooltip' }
+                                );
+                                // Click → toggle municipality filter
+                                layer.on('click', () => {
+                                    const idx = this.filterMunicipio.indexOf(nombre);
+                                    if (idx >= 0) {
+                                        this.filterMunicipio.splice(idx, 1);
+                                    } else {
+                                        this.filterMunicipio.push(nombre);
+                                    }
+                                    this.applyFilters();
+                                });
+                                // Hover highlight
+                                layer.on('mouseover', () => layer.setStyle({ weight: 2.5, color: '#334155' }));
+                                layer.on('mouseout',  () => layer.setStyle({ weight: 1,   color: '#fff' }));
+                            }
+                        }).addTo(this.choroMapInstance);
+
+                        // Force Leaflet to recalculate container size
+                        setTimeout(() => this.choroMapInstance.invalidateSize(), 150);
                     },
 
                     updateMarkers() {
@@ -3220,32 +3629,51 @@
                         this.markers.forEach(m => this.map.removeLayer(m));
                         this.markers = [];
 
+                        // Wide color scales per metric (light=low, saturated dark=high)
+                        const metricColor = (val) => {
+                            if (val == null || isNaN(val)) return '#94a3b8';
+                            const t = Math.max(0, Math.min(1, val));
+                            const colors = {
+                                pct_avance_global:            (t) => `hsl(${210 + t*15},${55+t*35}%,${88-t*63}%)`,
+                                eje_transformacion_practicas: (t) => `hsl(${138},${50+t*42}%,${86-t*64}%)`,
+                                eje_descenso_curricular:      (t) => `hsl(${32 - t*12},${70+t*25}%,${88-t*60}%)`
+                            };
+                            return (colors[this.iedMetric] || colors.pct_avance_global)(t);
+                        };
+
                         this.filteredIEDs.forEach(i => {
                             if (!i.lat || !i.lng) return;
 
-                            // Calculate completed stages count for MAP COLORS (Cyan, Yellow, Red)
+                            let color;
                             const stages = ['e1', 'e2', 'e3', 'e4', 'e5', 'e6'];
-                            const completedCount = stages.filter(s => i.etapas_cursadas[s]).length;
-
-                            // Colors based on participation rules:
-                            let color = '#94a3b8';
-                            if (completedCount === 1 || completedCount === 2) {
-                                color = '#e3001b'; // Red
-                            } else if (completedCount === 3) {
-                                color = '#f1c40f'; // Yellow
-                            } else if (completedCount === 4 || completedCount === 5) {
-                                color = '#00b0f0'; // Cyan
-                            } else if (completedCount === 6) {
-                                color = '#003366'; // Dark blue
+                            if (this.iedMetric === 'participacion') {
+                                // Existing participation coloring
+                                const completedCount = stages.filter(s => i.etapas_cursadas[s]).length;
+                                color = '#94a3b8';
+                                if (completedCount === 1 || completedCount === 2) color = '#e3001b';
+                                else if (completedCount === 3) color = '#f1c40f';
+                                else if (completedCount === 4 || completedCount === 5) color = '#00b0f0';
+                                else if (completedCount === 6) color = '#003366';
+                            } else {
+                                color = metricColor(i.metricas?.[this.iedMetric]);
                             }
 
                             const displayName = i.nombre_oficial || i.institucion;
                             const avStages = stages.filter(s => i.etapas_cursadas[s]);
+                            const metricLabels = {
+                                pct_avance_global: '% Avance Global',
+                                eje_transformacion_practicas: 'Transf. Prácticas',
+                                eje_descenso_curricular: 'Descenso Curricular'
+                            };
+                            const metricVal = this.iedMetric !== 'participacion' && i.metricas?.[this.iedMetric] != null
+                                ? `<span style="color:#3b82f6;font-weight:700;">${metricLabels[this.iedMetric]}: ${Math.round(i.metricas[this.iedMetric]*100)}%</span>`
+                                : '';
                             const tipLines = [
                                 `<b style="font-size:0.9rem">${displayName}</b>`,
                                 `<span style="color:#64748b">${i.municipio_oficial || i.municipio}</span>`,
+                                metricVal,
                                 i.modelo_clasificado ? `<span>Modelo: ${i.modelo_clasificado}</span>` : '',
-                                i.familia_pedagogica ? `<span>Familia: ${i.familia_pedagogica}</span>` : '',
+                                i.familia_pedagogica ? `<span>Agregación: ${i.familia_pedagogica}</span>` : '',
                                 avStages.length ? `<hr style="margin:4px 0;border:none;border-top:1px solid #e2e8f0"><b>Etapas: ${avStages.join(', ').toUpperCase()}</b>` : ''
                             ].filter(Boolean).join('<br>');
 
